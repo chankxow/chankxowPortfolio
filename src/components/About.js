@@ -1,7 +1,86 @@
-import React from 'react';
+import React from "react";
+//img
+import SchoolLogo from "../assets/stp-logo.png";
+import profile from '../assets/avartarB.jpg'
+// motion
+import { motion } from "framer-motion";
+// variants
+import { fadeIn } from "../variants";
+//intereaction
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <section id="about" className=" section mx-auto max-w-max max-h-max block">
+      <div className="container">
+        <motion.h1
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}
+          className="text-black mx-auto text-center text-[50px] 
+    font-bold text-transparent bg-gradient-to-tr bg-clip-text
+     from-blue-500 to-green-500  py-10 "
+        >
+          -MY JOURNEY-
+        </motion.h1>
+
+        <div className="f-anupan text-black py-5">
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+            className="py-6 text-center items-center block"
+          >
+            <img src={SchoolLogo} alt="" className="mx-auto text-[40px]" />
+            <div>
+              <a
+                href="http://srithatpit.ac.th/wcms/"
+                className="text-transparent bg-gradient-to-tr bg-clip-text
+     from-black to-yellow-500 text-5xl font-bold"
+              >
+                โรงเรียนศรีธาติพิทยาคม
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+          >
+            <p>
+              สวัสดีครับ, ผม นายเกียรติภูมิ พละสาร หรือชื่อเล่นว่า ภูมิ ครับ
+              เป็นนักเรียนจากโรงเรียนศรีธาตุพิทยาคม จังหวัดอุดรธานี ห้องเรียน
+              วิทย์-คณิต
+            </p>
+            <p>
+              ผมมีความชื่นชอบในด้านการเขียนโค้ดโปรแกรมมิ่ง การออกแบบเว็บไซต์
+              การพัฒนาระบบ<span> IOT </span>
+              และมีความใฝ่ฝันที่อยากจะเรียนต่อทางด้านวิศวกรรมคอมพิวเตอร์
+            </p>
+            <p>
+              และในอนาคตผมมีเป้าหมายไว้ว่าจะต้องเป็น
+              <span>Full Stack Developer</span> ให้ได้
+            </p>
+          </motion.div>
+        </div>
+      </div>
+      <div className=" w-max mx-auto">
+      <h1 className="text-black text-[50px] 
+    font-bold text-transparent bg-gradient-to-tr bg-clip-text
+     from-blue-500 to-green-500  py-10 ">{"<"} ABOUT ME {"/>"}</h1>
+      </div>
+      <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
+      <img src={profile} alt="" className="h-[400px] items-baseline"/>
+      <div className="bg-blue-200">
+      
+      </div>
+      </div>
+        
+    </section>
+  );
 };
 
 export default About;
+

@@ -1,7 +1,70 @@
-import React from 'react';
+import React from "react";
+//img
 
+//animation
+//type animation
+import { TypeAnimation } from "react-type-animation";
+// motion
+import { motion } from "framer-motion";
+// variants
+import { fadeIn } from "../variants";
 const Banner = () => {
-  return <div>Banner</div>;
+  return (
+    <section id="home" className="section text-black">
+       <div className="container mx-auto">
+       
+          {/*text*/}
+          <div
+             className=" mx-auto text-center text-5xl font-bold text-white">
+            <motion.div
+            variants={fadeIn('up', 0.3)} 
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{once:false,amount:0.7}}>HEY I'M </motion.div>
+            <motion.div 
+            variants={fadeIn('up', 0.5)} 
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{once:false,amount:0.7}}
+            className="text-8xl font-bold text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500">
+              <h1 >POOM </h1>
+              <h1 className="text-7xl">KIATTIPOOM PALASAN</h1>
+            </motion.div>
+            <motion.div
+            variants={fadeIn('up', 0.7)} 
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{once:false,amount:0.7}}>
+              <span 
+              className="text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 mr-4">
+                I AM A
+              </span>
+              <TypeAnimation
+                className="text-3xl font-bold text-green-500"
+                sequence={[
+                  "DEVELOPER",
+                  2000,
+                  "PROGRAMMER",
+                  2000,
+                  "STUDENT",
+                  2000,
+                  'ENGINEERING',2000.
+                ]}
+                speed={50}
+                wrapper="span"
+                repeat={Infinity}
+              />
+              
+            </motion.div>
+            
+          </div>
+          
+          
+        
+        
+      </div>
+    </section>
+  );
 };
 
 export default Banner;
