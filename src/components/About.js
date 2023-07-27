@@ -39,7 +39,7 @@ const About = () => {
                 className="text-transparent bg-gradient-to-tr bg-clip-text
      from-black to-yellow-500 text-5xl font-bold"
               >
-                โรงเรียนศรีธาติพิทยาคม
+                โรงเรียนศรีธาตุพิทยาคม
               </a>
             </div>
           </motion.div>
