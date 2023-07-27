@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //intereaction
-
 const About = () => {
   return (
     <section id="about" className=" section mx-auto max-w-max max-h-max block">
@@ -74,7 +73,10 @@ const About = () => {
       </div>
       </div>
         
+        
     </section>
+  
+
   );
 };
 
