@@ -69,7 +69,6 @@ const About = () => {
       <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
       <img src={profile} alt="" className="h-[400px] items-baseline"/>
       <div className="bg-blue-200">
-      
       </div>
       </div>
         
