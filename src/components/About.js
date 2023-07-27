@@ -1,13 +1,19 @@
 import React from "react";
 //img
 import SchoolLogo from "../assets/stp-logo.png";
-import profile from '../assets/avartarB.jpg'
+import profile from "../assets/avartarB.jpg";
 // motion
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //intereaction
 const About = () => {
+  function Skill() {
+    document.getElementById("ChangeTxt").innerHTML = "Hello World";
+  }
+  function Inform() {
+    document.getElementById("ChangeTxt").innerHTML = "sad";
+  }
   return (
     <section id="about" className=" section mx-auto max-w-max max-h-max block">
       <div className="container">
@@ -62,22 +68,29 @@ const About = () => {
         </div>
       </div>
       <div className=" w-max mx-auto">
-      <h1 className="text-black text-[50px] 
+        <h1
+          className="text-black text-[50px] 
     font-bold text-transparent bg-gradient-to-tr bg-clip-text
-     from-blue-500 to-green-500  py-10 ">{"<"} ABOUT ME {"/>"}</h1>
+     from-blue-500 to-green-500  py-10 "
+        >
+          {"<"} ABOUT ME {"/>"}
+        </h1>
       </div>
-      <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
-      <img src={profile} alt="" className="h-[400px] items-baseline"/>
-      <div className="bg-blue-200">
-      </div>
-      </div>
+      <div>
+        <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
+          <img src={profile} alt="" className="h-[400px] items-baseline" />
+          <div className="mx-auto">
+          <div className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Skill}>Skill</div>
+          <div className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Inform}>Skill</div>
+          <div><div id='ChangeTxt' className="text-black"></div></div>
+          </div>
+          
+          
+        </div>
         
-        
+      </div>
     </section>
-  
-
   );
 };
 
 export default About;
-
