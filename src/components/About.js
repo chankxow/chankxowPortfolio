@@ -80,8 +80,8 @@ const About = () => {
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
           <img src={profile} alt="" className="h-[400px] items-baseline" />
           <div className="mx-auto">
-          <div className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Skill}>Skill</div>
-          <div className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Inform}>Skill</div>
+          <span className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Skill}>Skill</span>
+          <span className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Inform}>Skill</span>
           <div><div id='ChangeTxt' className="text-black"></div></div>
           </div>
           
