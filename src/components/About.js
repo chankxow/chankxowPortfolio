@@ -27,7 +27,7 @@ const About = () => {
           -MY JOURNEY-
         </motion.h1>
 
-        <div className="f-anupan text-black mx-auto">
+        <div className="f-anupan text-black ">
           <motion.div
             variants={fadeIn("up", 0.2)}
             initial="hidden"
