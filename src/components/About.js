@@ -70,13 +70,11 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <div></div>
-      <motion.div
+      <div className="w-max mx-auto"><motion.div
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className=" w-max mx-auto"
       >
         <h1
           className="text-black text-[50px] 
@@ -85,7 +83,8 @@ const About = () => {
         >
           {"<"} ABOUT ME {"/>"}
         </h1>
-      </motion.div>
+      </motion.div></div>
+      
       <div className="mx-auto flex">
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
