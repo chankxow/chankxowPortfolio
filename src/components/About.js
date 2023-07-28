@@ -72,13 +72,14 @@ const About = () => {
       </div>
       <div>
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
-          <img src={profile} alt="" className="h-[400px] items-baseline" />
-          <div className="mx-auto">
+          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className=" group-hover:bg-black/70 w-full h-full transition-all duration-500 ">
+              <img src={profile} alt="" className="h-[400px]" />
+            </div>
           </div>
-          
-          
+
+          <div className="mx-auto"></div>
         </div>
-        
       </div>
     </section>
   );
