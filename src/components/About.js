@@ -8,12 +8,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 //intereaction
 const About = () => {
-  function Skill() {
-    document.getElementById("ChangeTxt").innerHTML = "Hello World";
-  }
-  function Inform() {
-    document.getElementById("ChangeTxt").innerHTML = "sad";
-  }
   return (
     <section id="about" className=" section mx-auto max-w-max max-h-max block">
       <div className="container">
@@ -80,9 +74,6 @@ const About = () => {
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
           <img src={profile} alt="" className="h-[400px] items-baseline" />
           <div className="mx-auto">
-          <span className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Skill}>Skill</span>
-          <span className='bg-blue-500 text-black text-[50px] cursor-pointer' onClick={Inform}>Skill</span>
-          <div><div id='ChangeTxt' className="text-black"></div></div>
           </div>
           
           

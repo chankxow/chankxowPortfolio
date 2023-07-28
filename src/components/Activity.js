@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Work = () => {
-  return <div>Work</div>;
+const Activity = () => {
+  return <div id='activity' className='text-black'>Activity</div>;
 };
 
-export default Work;
+export default Activity;
