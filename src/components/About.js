@@ -18,7 +18,7 @@ const About = () => {
           viewport={{ once: true, amount: 0.7 }}
           className="text-black mx-auto text-center text-[50px] 
     font-bold text-transparent bg-gradient-to-tr bg-clip-text
-     from-blue-500 to-green-500  py-10 "
+     from-blue-500 to-green-500 py-5 "
         >
           -MY JOURNEY-
         </motion.h1>

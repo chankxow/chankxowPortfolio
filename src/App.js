@@ -9,8 +9,8 @@ import Contact from './components/Contact';
 import Certificate from './components/Certificate';
 const App = () => {
   return (
-    <div className='bg-ac bg-no-repeat overflow-hidden bg-cover'>
-    <Banner />
+    <div className='bg-ac bgAnimation bg-no-repeat overflow-hidden bg-cover'>
+    <Banner/>
     <div>
     <div className='bg-white'>
       <About/>
