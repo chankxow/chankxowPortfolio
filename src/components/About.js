@@ -72,10 +72,8 @@ const About = () => {
       </div>
       <div>
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
-          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-            <div className=" group-hover:bg-black/70 w-full h-full transition-all duration-500 ">
+            <div className=" hover:scale-[105%] bg-black/70 transition-all duration-300 h-[400px] ">
               <img src={profile} alt="" className="h-[400px]" />
-            </div>
           </div>
 
           <div className="mx-auto"></div>
