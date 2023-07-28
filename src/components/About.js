@@ -79,8 +79,8 @@ const About = () => {
         >
           <h1
             className="text-black text-[50px] 
-    font-bold text-transparent bg-gradient-to-tr bg-clip-text
-     from-blue-500 to-green-500  py-10 "
+    font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-green-500 to-blue-500  py-10 "
           >
             {"<"} ABOUT ME {"/>"}
           </h1>
@@ -110,7 +110,10 @@ const About = () => {
      from-blue-500 to-green-500 font-bold text-[30px] pb-4"
             >
               NAME
-              <p className="text-[20px] text-blue-500">
+              <p
+                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500"
+              >
                 Poom ,Kiatipoom Palasan{" "}
               </p>
             </motion.h1>
@@ -125,7 +128,8 @@ const About = () => {
               AGE
               <p>
                 <CountUp
-                  className=" text-blue-500 font-bold text-[20px] "
+                  className=" text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[20px] "
                   start={0}
                   end={18}
                   duration={5}
@@ -138,10 +142,32 @@ const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className=" text-transparent bg-gradient-to-b bg-clip-text
+              className="text-transparent bg-gradient-to-b bg-clip-text
      from-blue-500 to-green-500 font-bold text-[30px] pb-4"
             >
-              BIRHDAY<p className="text-[20px] text-blue-500">30 Jan 2005</p>
+              BIRHDAY
+              <p
+                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500"
+              >
+                30 Jan 2005
+              </p>
+            </motion.h1>
+            <motion.h1
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              className="text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+            >
+              ADDRESS
+              <p
+                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500"
+              >
+                30 Jan 2005
+              </p>
             </motion.h1>
           </div>
         </div>
