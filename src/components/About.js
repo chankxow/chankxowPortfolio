@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="section mx-auto max-w-max h-max block bg-white"
+      className="section mx-auto max-w-max mx-h-max block bg-white"
     >
       <div className="container">
         <motion.h1
@@ -83,7 +83,7 @@ const About = () => {
       </div>
 
       <div className="mx-auto flex">
-        <div className="flex flex-col gap-y-10 lg:flex-row h-[500px]">
+        <div className="flex flex-col gap-y-10 lg:flex-row h-max">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
             <motion.img
               variants={fadeIn("right", 0.2)}
