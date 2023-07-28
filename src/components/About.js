@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="section mx-auto max-w-max mx-h-max block bg-white"
+      className="section mx-auto max-w-max mx-h-max block"
     >
       <div className="container">
         <motion.h1
