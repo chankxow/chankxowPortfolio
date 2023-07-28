@@ -62,6 +62,9 @@
 .f-anupan{
   font-family: 'Anuphan', sans-serif;
 }
+
+
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
@@ -87,7 +90,5 @@
   .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
-  .section {
-    @apply py-8 lg:py-24 flex items-center;
-  }
+ 
 }

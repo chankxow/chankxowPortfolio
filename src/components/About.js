@@ -4,20 +4,15 @@ import SchoolLogo from "../assets/stp-logo.png";
 import profile from "../assets/img-profile.png";
 // motion
 import CountUp from "react-countup";
-import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //intereaction
 const About = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
   return (
     <section
       id="about"
-      ref={ref}
-      className=" section mx-auto max-w-max max-h-max block"
+      className="section mx-auto max-w-max h-max block bg-white"
     >
       <div className="container">
         <motion.h1
@@ -32,7 +27,7 @@ const About = () => {
           -MY JOURNEY-
         </motion.h1>
 
-        <div className="f-anupan text-black py-5">
+        <div className="f-anupan text-black mx-auto">
           <motion.div
             variants={fadeIn("up", 0.2)}
             initial="hidden"
@@ -44,7 +39,7 @@ const About = () => {
             <div>
               <a
                 href="http://srithatpit.ac.th/wcms/"
-                className="text-transparent bg-gradient-to-r bg-clip-text
+                className="text-transparent bg-gradient-to-br bg-clip-text
      from-black to-yellow-500 text-5xl font-bold"
               >
                 โรงเรียนศรีธาตุพิทยาคม
@@ -80,7 +75,7 @@ const About = () => {
           <h1
             className="text-black text-[50px] 
     font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-green-500 to-blue-500  py-10 "
+     from-green-500 to-blue-500 py-10"
           >
             {"<"} ABOUT ME {"/>"}
           </h1>
@@ -88,7 +83,7 @@ const About = () => {
       </div>
 
       <div className="mx-auto flex">
-        <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
+        <div className="flex flex-col gap-y-10 lg:flex-row h-[500px]">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
             <motion.img
               variants={fadeIn("right", 0.2)}
@@ -100,76 +95,88 @@ const About = () => {
               className="rounded-2xl h-[400px] w-[280px] shadow-2xl"
             />
           </div>
-          <div className="mx-auto block p-8 f-anupan">
-            <motion.h1
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-            >
-              NAME
-              <p
-                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500"
-              >
-                Poom ,Kiatipoom Palasan{" "}
-              </p>
-            </motion.h1>
-            <motion.h1
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className=" text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-            >
-              AGE
-              <p>
-                <CountUp
-                  className=" text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[20px] "
-                  start={0}
-                  end={18}
-                  duration={5}
-                />
-              </p>
-            </motion.h1>
 
-            <motion.h1
-              variants={fadeIn("left", 0.2)}
+          <motion.div
+          variants={fadeIn("left", 0.2)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="text-transparent bg-gradient-to-b bg-clip-text
+          >
+            <div className="mx-auto block p-8 f-anupan">
+              <h1
+                className="text-transparent bg-gradient-to-b bg-clip-text
      from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-            >
-              BIRHDAY
-              <p
+              >
+                NAME
+              </h1>
+              <div>
+                <p
+                  className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500"
+                >
+                  Poom ,Kiatipoom Palasan{" "}
+                </p>
+              </div>
+              <h1
+                className=" text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+              >
+                SKILL
+              </h1>
+              <div>
+                <p></p>
+              </div>
+
+              <h1
+                className="text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+              >
+                BIRHDAY
+              </h1>
+              <div>
+                <p
+                  className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500"
+                >
+                  <CountUp
+                    className=" text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 text-[20px] "
+                    start={0}
+                    end={30}
+                    duration={5}
+                  />{" "}
+                  Jan{" "}
+                  <CountUp
+                    className=" text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 text-[20px] "
+                    start={0}
+                    end={200}
+                    duration={5}
+                  />
+                  <CountUp
+                    className=" text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 text-[20px] "
+                    start={0}
+                    end={5}
+                    duration={5}
+                  />
+                </p>
+              </div>
+              <h1
+                className="text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+              >
+                ADDRESS
+              </h1>
+              <div
                 className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
               >
-                30 Jan 2005
-              </p>
-            </motion.h1>
-            <motion.h1
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-            >
-              ADDRESS
-              <p
-                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500"
-              >
-                30 Jan 2005
-              </p>
-            </motion.h1>
-          </div>
+                <p className="">77 หมู่ 4 ซอย 7 บ้านเลิงถ่อนโนนสมบูรณ์ ตำบลหนองหญ้าไซ</p>
+                <p>อำเภอวังสามหมอ จังหวัดอุดรธานี 41280</p>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
