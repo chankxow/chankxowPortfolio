@@ -26,7 +26,7 @@ const About = () => {
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
           className="text-black mx-auto text-center text-[50px] 
-    font-bold text-transparent bg-gradient-to-tr bg-clip-text
+    font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-5 "
         >
           -MY JOURNEY-
@@ -44,7 +44,7 @@ const About = () => {
             <div>
               <a
                 href="http://srithatpit.ac.th/wcms/"
-                className="text-transparent bg-gradient-to-tr bg-clip-text
+                className="text-transparent bg-gradient-to-r bg-clip-text
      from-black to-yellow-500 text-5xl font-bold"
               >
                 โรงเรียนศรีธาตุพิทยาคม
