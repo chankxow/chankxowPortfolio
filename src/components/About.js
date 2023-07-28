@@ -1,15 +1,24 @@
 import React from "react";
 //img
 import SchoolLogo from "../assets/stp-logo.png";
-import profile from "../assets/avartarB.jpg";
+import profile from "../assets/img-profile.png";
 // motion
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //intereaction
 const About = () => {
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  });
   return (
-    <section id="about" className=" section mx-auto max-w-max max-h-max block">
+    <section
+      id="about"
+      ref={ref}
+      className=" section mx-auto max-w-max max-h-max block"
+    >
       <div className="container">
         <motion.h1
           variants={fadeIn("down", 0.2)}
@@ -61,7 +70,14 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <div className=" w-max mx-auto">
+      <div></div>
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.7 }}
+        className=" w-max mx-auto"
+      >
         <h1
           className="text-black text-[50px] 
     font-bold text-transparent bg-gradient-to-tr bg-clip-text
@@ -69,14 +85,64 @@ const About = () => {
         >
           {"<"} ABOUT ME {"/>"}
         </h1>
-      </div>
-      <div>
+      </motion.div>
+      <div className="mx-auto flex">
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
-            <div className=" hover:scale-[105%] bg-black/70 transition-all duration-300 h-[400px] ">
-              <img src={profile} alt="" className="h-[400px]" />
+          <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
+            <motion.img
+              variants={fadeIn("right", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              src={profile}
+              alt=""
+              className="rounded-2xl h-[400px] w-[280px] shadow-2xl"
+            />
           </div>
+          <div className="mx-auto block p-8 f-anupan">
+            <motion.h1
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              className="text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+            >
+              NAME
+              <p className="text-[20px] text-blue-500">
+                Poom ,Kiatipoom Palasan{" "}
+              </p>
+            </motion.h1>
+            <motion.h1
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              className=" text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+            >
+              AGE
+              <p>
+                <CountUp
+                  className=" text-blue-500 font-bold text-[20px] "
+                  start={0}
+                  end={18}
+                  duration={5}
+                />
+              </p>
+            </motion.h1>
 
-          <div className="mx-auto"></div>
+            <motion.h1
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              className=" text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+            >
+              BIRHDAY<p className="text-[20px] text-blue-500">30 Jan 2005</p>
+            </motion.h1>
+          </div>
         </div>
       </div>
     </section>

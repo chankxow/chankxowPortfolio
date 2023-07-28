@@ -14,7 +14,7 @@ const Banner = () => {
        <div className="container mx-auto ">
           <div className=" mx-auto text-center text-5xl font-bold text-white">
             <motion.div
-            className="text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500"
+            className="text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500 "
             variants={fadeIn('up', 0.3)} 
             initial="hidden"
             whileInView={'show'}

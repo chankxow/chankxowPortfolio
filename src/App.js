@@ -12,7 +12,7 @@ const App = () => {
     <div className='bg-ac bgAnimation bg-no-repeat overflow-hidden bg-cover'>
     <Banner/>
     <div>
-    <div className='bg-white'>
+    <div className=''>
       <About/>
       <div><Project/></div>
       

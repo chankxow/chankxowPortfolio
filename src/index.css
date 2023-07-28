@@ -13,7 +13,7 @@
   padding-top: 100px;
   background-position: center;
   background-size: cover;
-  background-image:url(./assets/img-profile.png);
+  background-image:linear-gradient(white,rgb(116, 255, 227));
   background-attachment: fixed;
 }
 
