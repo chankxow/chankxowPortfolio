@@ -70,21 +70,23 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-max mx-auto"><motion.div
-        variants={fadeIn("up", 0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: true, amount: 0.7 }}
-      >
-        <h1
-          className="text-black text-[50px] 
+      <div className="w-max mx-auto">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}
+        >
+          <h1
+            className="text-black text-[50px] 
     font-bold text-transparent bg-gradient-to-tr bg-clip-text
      from-blue-500 to-green-500  py-10 "
-        >
-          {"<"} ABOUT ME {"/>"}
-        </h1>
-      </motion.div></div>
-      
+          >
+            {"<"} ABOUT ME {"/>"}
+          </h1>
+        </motion.div>
+      </div>
+
       <div className="mx-auto flex">
         <div className="flex flex-col gap-y-10 lg:flex-row h-screen">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
