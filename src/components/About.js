@@ -36,11 +36,11 @@ const About = () => {
             className="py-6 text-center items-center block"
           >
             <img src={SchoolLogo} alt="" className="mx-auto text-[40px]" />
-            <div>
+            <div className="hover:scale-[105%] transition-all ease-in-out duration-200">
               <a
                 href="http://srithatpit.ac.th/wcms/"
                 className="text-transparent bg-gradient-to-br bg-clip-text
-     from-black to-yellow-500 text-5xl font-bold"
+     from-black to-yellow-500 text-[48px] font-bold "
               >
                 โรงเรียนศรีธาตุพิทยาคม
               </a>
