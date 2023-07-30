@@ -40,13 +40,13 @@ const Banner = () => {
               <TypeAnimation
                 className="text-3xl font-bold text-green-500"
                 sequence={[
-                  "DEVELOPER",
+                  "A DEVELOPER",
                   2000,
-                  "PROGRAMMER",
+                  "A PROGRAMMER",
                   2000,
-                  "STUDENT",
+                  "A STUDENT",
                   2000,
-                  'ENGINEERING',2000.
+                  'AN ENGINEERING',2000.
                 ]}
                 speed={50}
                 wrapper="span"
