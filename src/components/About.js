@@ -7,13 +7,10 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //icons
-import{FaFacebook,FaGithub,FaInstagram} from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const About = () => {
   return (
-    <section
-      id="about"
-      className="section mx-auto max-w-max mx-h-max block"
-    >
+    <section id="about" className="section mx-auto max-w-max mx-h-max block">
       <div className="container">
         <motion.h1
           variants={fadeIn("down", 0.2)}
@@ -85,40 +82,38 @@ const About = () => {
       <div className="mx-auto flex">
         <div className="flex flex-col gap-y-10 lg:flex-row h-max">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
-          <div class="profile-img ">
-  <b className=""></b>
-  <div class="content">
-    <p class="title">KIATTIPOOM PALASAN</p>
-    <ul class="sci">
-      <li>
-        <a href="https://www.facebook.com/profile.php?id=100011973946922">
-        <FaFacebook/>
-        </a>
-      </li>
+            <div className="profile-img ">
+              <b className=""></b>
+              <div className="content">
+                <p className="title">KIATTIPOOM PALASAN</p>
+                <ul className="sci">
+                  <li>
+                    <a href="https://www.facebook.com/profile.php?id=100011973946922">
+                      <FaFacebook />
+                    </a>
+                  </li>
 
-      <li>
-        <a href="https://www.instagram.com/grv.kx/?hl=en">
-        <FaInstagram/>
-        </a>
-      </li>
+                  <li>
+                    <a href="https://www.instagram.com/grv.kx/?hl=en">
+                      <FaInstagram />
+                    </a>
+                  </li>
 
-      <li>
-        <a href="https://github.com/chankxow">
-        <FaGithub/>
-        </a>
-      </li>
-
-      
-    </ul>
-  </div>
-</div>
+                  <li>
+                    <a href="https://github.com/chankxow">
+                      <FaGithub />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <motion.div
-          variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
           >
             <div className="mx-auto block p-8 f-anupan">
               <h1
@@ -190,7 +185,9 @@ const About = () => {
                 className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
               >
-                <p className="">77 หมู่ 4 ซอย 7 บ้านเลิงถ่อนโนนสมบูรณ์ ตำบลหนองหญ้าไซ</p>
+                <p className="">
+                  77 หมู่ 4 ซอย 7 บ้านเลิงถ่อนโนนสมบูรณ์ ตำบลหนองหญ้าไซ
+                </p>
                 <p>อำเภอวังสามหมอ จังหวัดอุดรธานี 41280</p>
               </div>
             </div>
