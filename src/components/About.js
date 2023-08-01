@@ -96,7 +96,7 @@ const About = () => {
                   </li>
                   <li>
                     <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-gradient-to-tr from-violet-800 to-pink-500 to-red-500' href="https://www.instagram.com/grv.kx/?hl=en">
+                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-gradient-to-tr from-violet-800 pink-500 to-red-500' href="https://www.instagram.com/grv.kx/?hl=en">
                       <FaInstagram />
                     </a>
                   </li>
