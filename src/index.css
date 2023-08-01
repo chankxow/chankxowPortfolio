@@ -98,7 +98,8 @@
 
 /* CodePen Card */
 
-.card {
+/*card img project*/
+.card-p1 {
   width: 15em;
   height: 10em;
   background:url('./assets/img-profile.png');
@@ -111,6 +112,31 @@
   cursor: pointer;
 }
 
+.card-p2 {
+  width: 15em;
+  height: 10em;
+  background:url('./assets/img-profile.png');
+  background-size: 110%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  transition: .4s ease-in-out;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.card-p3 {
+  width: 15em;
+  height: 10em;
+  background:url('./assets/img-profile.png');
+  background-size: 110%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  transition: .4s ease-in-out;
+  border-radius: 7px;
+  cursor: pointer;
+}
+/*card img project*/
 .fl {
   display: flex;
   justify-content: flex-end;
@@ -180,6 +206,7 @@
 }
 
 .img {
+  
   width: 2.25em;
   height: 2.25em;
   background-color: #252525;
@@ -359,8 +386,8 @@ button:hover::after {
 button:active {
   scale: 1.1;
   opacity: 1;
-  color: aliceblue;
-  background: linear-gradient(90deg, #ce68d9, #45c6db, #45db79, #ffe4f2) ;
+  color: black;
+  background: linear-gradient(90deg, rgb(234, 255, 255),#fff) ;
   background-size: 800% 800%;
   -webkit-animation: AnimationName 1s ease infinite;
   -moz-animation: AnimationName 1s ease infinite;
@@ -370,4 +397,130 @@ button:active {
 button:active::before {
   color: white;
   opacity: 1;
+}
+
+/*profile*/
+.profile-img {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    92.23deg,
+    #00bfff 21.43%,
+    #36a7fd 50.63%,
+    #21dbc5 100%,
+    #28ff85 117.04%);
+}
+
+
+
+.profile-img b {
+
+  background-color: #666666;background-image: url('./assets/img-profile.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 6px;
+  z-index: 2;
+}
+
+.profile-img img {
+  position: absolute;
+  z-index: 3;
+  scale: 0.8;
+  opacity: 0.25;
+  transition: 0.5s;
+}
+
+.profile-img:hover img {
+  scale: 0.5;
+  opacity: 0.9;
+  transform: translateY(-70px);
+}
+
+.profile-img .content {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.profile-img:hover .content {
+  transform: scale(1);
+  bottom: 25px;
+}
+
+.content .title {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1em;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content .title span {
+  font-weight: 300;
+  font-size: 0.70em;
+}
+
+.content .sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li .fa-brands {
+  width: 14px;
+}
+
+.sci li .fa-facebook {
+  width: 10px;
+}
+
+.sci li a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.2);
+  fill: currentColor;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 1);
 }
