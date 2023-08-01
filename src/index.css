@@ -137,7 +137,3 @@
   bottom: 25px;
 }
 
-.sci li a:hover {
-  fill: currentColor;
-  color: rgba(255, 255, 255, 1);
-}
