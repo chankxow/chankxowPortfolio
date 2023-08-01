@@ -97,7 +97,7 @@ const About = () => {
       </li>
 
       <li>
-        <a href="#">
+        <a href="https://www.instagram.com/grv.kx/?hl=en">
         <FaInstagram/>
         </a>
       </li>
