@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //icons
-import { FaFacebook, FaGithub, FaInstagram,FaJs } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="section mx-auto max-w-max mx-h-max block">
