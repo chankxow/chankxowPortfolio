@@ -12,11 +12,9 @@ const App = () => {
     <div className='grid bg-ac bgAnimation bg-no-repeat overflow-hidden bg-cover'>
     <Banner/>
     <div>
-    <div className=''>
       <About/>
-      <div><Project/></div>
-      
       <Activity/>
+      <Project/>
       <Certificate/>
       <Contact/>
       <Nav/>
@@ -24,9 +22,7 @@ const App = () => {
 
       </div>
       </div>
-      
-    </div></div>
-    
+      </div>
   );
 };
 
