@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //icons
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram,FaJs } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="section mx-auto max-w-max mx-h-max block">
@@ -90,19 +90,19 @@ const About = () => {
                 <ul className="sci relative flex justify-center items-center gap-2 mt-2">
                   <li>
                     <a className=" relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500 text-blue-600" href="https://www.facebook.com/profile.php?id=100011973946922">
+                    flex justify-center items-center rounded transition-all duration-500  hover:fill-current hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500" href="https://www.facebook.com/profile.php?id=100011973946922">
                       <FaFacebook />
                     </a>
                   </li>
                   <li>
                     <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover::text-red-600' href="https://www.instagram.com/grv.kx/?hl=en">
+                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-gradient-to-tr from-violet-800 to-pink-500 to-red-500' href="https://www.instagram.com/grv.kx/?hl=en">
                       <FaInstagram />
                     </a>
                   </li>
                   <li>
                     <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500' href="https://github.com/chankxow">
+                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-black' href="https://github.com/chankxow">
                       <FaGithub />
                     </a>
                   </li>
