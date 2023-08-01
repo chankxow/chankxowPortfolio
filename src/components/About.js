@@ -1,8 +1,6 @@
 import React from "react";
 //img
 import SchoolLogo from "../assets/stp-logo.png";
-// motion
-import CountUp from "react-countup";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
@@ -82,31 +80,36 @@ const About = () => {
       <div className="mx-auto flex">
         <div className="flex flex-col gap-y-10 lg:flex-row h-max">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
-            <div className="profile-img ">
-              <b className=""></b>
-              <div className="content">
-                <p className="title">KIATTIPOOM PALASAN</p>
-                <ul className="sci">
+            <div className="profile-img  ">
+              <div className="profile rounded-2xl">
+              
+                
+              </div>
+              <div className="content ">
+                <p className="title relative font-semibold tracking-widest text-center">KIATTIPOOM PALASAN</p>
+                <ul className="sci relative flex justify-center items-center gap-2 mt-2">
                   <li>
-                    <a href="https://www.facebook.com/profile.php?id=100011973946922">
+                    <a className=" relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500" href="https://www.facebook.com/profile.php?id=100011973946922">
                       <FaFacebook />
                     </a>
                   </li>
-
                   <li>
-                    <a href="https://www.instagram.com/grv.kx/?hl=en">
+                    <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500' href="https://www.instagram.com/grv.kx/?hl=en">
                       <FaInstagram />
                     </a>
                   </li>
-
                   <li>
-                    <a href="https://github.com/chankxow">
+                    <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500' href="https://github.com/chankxow">
                       <FaGithub />
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
+            <p className=" text-center justify-end">CLICK FOR CONTACT</p>
           </div>
 
           <motion.div
@@ -151,28 +154,7 @@ const About = () => {
                   className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
                 >
-                  <CountUp
-                    className=" text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500 text-[20px] "
-                    start={0}
-                    end={30}
-                    duration={5}
-                  />{" "}
-                  Jan{" "}
-                  <CountUp
-                    className=" text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500 text-[20px] "
-                    start={0}
-                    end={200}
-                    duration={5}
-                  />
-                  <CountUp
-                    className=" text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500 text-[20px] "
-                    start={0}
-                    end={5}
-                    duration={5}
-                  />
+                  30 Jan 2005
                 </p>
               </div>
               <h1

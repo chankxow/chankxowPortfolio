@@ -102,30 +102,15 @@
   position: relative;
   width: 280px;
   height: 400px;
-  background: #f00;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.profile-img::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    92.23deg,
-    #00bfff 21.43%,
-    #36a7fd 50.63%,
-    #21dbc5 100%,
-    #28ff85 117.04%);
-}
 
 
 
-.profile-img b {
+.profile-img .profile {
   background-size:cover ;
   background-color: #666666;background-image: url('./assets/img-profile.png');
   background-position: center;
@@ -135,19 +120,6 @@
   z-index: 2;
 }
 
-.profile-img img {
-  position: absolute;
-  z-index: 3;
-  scale: 0.8;
-  opacity: 0.25;
-  transition: 0.5s;
-}
-
-.profile-img:hover img {
-  scale: 0.5;
-  opacity: 0.9;
-  transform: translateY(-70px);
-}
 
 .profile-img .content {
   position: absolute;
@@ -163,58 +135,6 @@
 .profile-img:hover .content {
   transform: scale(1);
   bottom: 25px;
-}
-
-.content .title {
-  position: relative;
-  color: #fff;
-  font-weight: 500;
-  line-height: 1em;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.content .title span {
-  font-weight: 300;
-  font-size: 0.70em;
-}
-
-.content .sci {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin-top: 5px;
-}
-
-.sci li {
-  list-style: none;
-}
-
-.sci li .fa-brands {
-  width: 14px;
-}
-
-.sci li .fa-facebook {
-  width: 10px;
-}
-
-.sci li a {
-  position: relative;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
-  background: rgba(0, 0, 0, 0.2);
-  fill: currentColor;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: 0.5s;
 }
 
 .sci li a:hover {
