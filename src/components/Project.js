@@ -6,7 +6,7 @@ const Project = () => {
       PROJECT
       <div className="container mx-auto">
       <div className="flex flex-col gap-y-10 lg:flex-row h-max">
-      <div className="card relative w-[350px] h-[250px] aspect-video 
+      <div className="card mx-10 relative w-[350px] h-[250px] aspect-video 
       rounded-xl flex items-center justify-center 
       overflow-hidden shadow-sm shadow-gray-950 
       transition-all duration-500 hover:scale-105 hover:shadow-lg hover:shadow-black">
@@ -22,7 +22,7 @@ const Project = () => {
                     </a>
   </div>
 </div>
-<div className="card relative w-[350px] h-[250px] aspect-video 
+<div className="card mx-10 relative w-[350px] h-[250px] aspect-video 
       rounded-xl flex items-center justify-center 
       overflow-hidden shadow-sm shadow-gray-950 
       transition-all duration-500 hover:scale-105 hover:shadow-lg hover:shadow-black">
@@ -38,7 +38,7 @@ const Project = () => {
                     </a>
   </div>
 </div>
-<div className="card relative w-[350px] h-[250px] aspect-video 
+<div className="card mx-10 relative w-[350px] h-[250px] aspect-video 
       rounded-xl flex items-center justify-center 
       overflow-hidden shadow-sm shadow-gray-950 
       transition-all duration-500 hover:scale-105 hover:shadow-lg hover:shadow-black">
