@@ -22,14 +22,29 @@ const Activity = () => {
 
         <div className=" max-h-max max-w-max ">
           <div className="cards  ">
-            <div className="card red h-max">
+            <div className="card red flex flex-col gap-y-10 lg:flex-row h-max">
               <div>
-                <p className="tip">Hover Me</p>
+                <div className="mx-auto hover:scale-[102%] transition-all duration-300 h-auto">
+                  <div className="post-img">
+                    <div
+                      className="post rounded-2xl"
+                    ></div>
+                    <div className="content ">
+                      <p className="title relative font-semibold tracking-widest text-center">
+                        KIATTIPOOM PALASAN
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
               <div className="second-text">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              <h1 className="font-bold">Hover Me</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Suscipit accusamus distinctio eum tempora accusantium
-                  perspiciatis et similique, incidunt quibusdam velit?</p>
+                  perspiciatis et similique, incidunt quibusdam velit?
+                </p>
               </div>
             </div>
             <div className="card white h-max ">
@@ -50,9 +65,11 @@ const Activity = () => {
               </div>
 
               <div className="second-text">
-                <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <p className="">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Suscipit accusamus distinctio eum tempora accusantium
-                  perspiciatis et similique, incidunt quibusdam velit?</p>
+                  perspiciatis et similique, incidunt quibusdam velit?
+                </p>
               </div>
             </div>
           </div>
