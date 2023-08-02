@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const Activity = () => {
-  return <div id='activity' className='text-black'>
-    <motion.h1
+  return (
+    <div id="activity" className="text-black section max-w-max mx-h-max">
+      <div className="container mx-auto">
+        <motion.h1
           variants={fadeIn("down", 0.2)}
           initial="hidden"
           whileInView={"show"}
@@ -14,7 +16,9 @@ const Activity = () => {
         >
           -MY ACTIVITY-
         </motion.h1>
-  </div>;
+      </div>
+    </div>
+  );
 };
 
 export default Activity;
