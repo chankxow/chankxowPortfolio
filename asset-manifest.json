@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc95e6c4.css",
-    "main.js": "/static/js/main.8783daf6.js",
-    "static/media/img-profile.png": "/static/media/img-profile.be26e607d6a39ae4143d.png",
-    "static/media/iot.png": "/static/media/iot.17336fd8ab4682571357.png",
-    "static/media/stp-logo.png": "/static/media/stp-logo.cf42749669cba0fb7576.png",
-    "index.html": "/index.html",
-    "main.dc95e6c4.css.map": "/static/css/main.dc95e6c4.css.map",
-    "main.8783daf6.js.map": "/static/js/main.8783daf6.js.map"
+    "main.css": "/chankxowPortfolio/static/css/main.eef363e9.css",
+    "main.js": "/chankxowPortfolio/static/js/main.3dabb0a0.js",
+    "static/media/img-profile.png": "/chankxowPortfolio/static/media/img-profile.be26e607d6a39ae4143d.png",
+    "static/media/iot.png": "/chankxowPortfolio/static/media/iot.17336fd8ab4682571357.png",
+    "static/media/stp-logo.png": "/chankxowPortfolio/static/media/stp-logo.cf42749669cba0fb7576.png",
+    "index.html": "/chankxowPortfolio/index.html",
+    "main.eef363e9.css.map": "/chankxowPortfolio/static/css/main.eef363e9.css.map",
+    "main.3dabb0a0.js.map": "/chankxowPortfolio/static/js/main.3dabb0a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc95e6c4.css",
-    "static/js/main.8783daf6.js"
+    "static/css/main.eef363e9.css",
+    "static/js/main.3dabb0a0.js"
   ]
 }
