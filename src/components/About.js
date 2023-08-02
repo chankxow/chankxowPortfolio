@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 //icons
-import { FaFacebook, FaGithub, FaInstagram, } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="section mx-auto max-w-max mx-h-max block">
@@ -82,43 +82,56 @@ const About = () => {
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
             <div className="profile-img  ">
               <motion.div
-              variants={fadeIn("right", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}
-               className="profile rounded-2xl">
-              
-                
-              </motion.div>
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: true, amount: 0.7 }}
+                className="profile rounded-2xl"
+              ></motion.div>
               <div className="content ">
-                <p className="title relative font-semibold tracking-widest text-center">KIATTIPOOM PALASAN</p>
+                <p className="title relative font-semibold tracking-widest text-center">
+                  KIATTIPOOM PALASAN
+                </p>
                 <ul className="sci relative flex justify-center items-center gap-2 mt-2">
                   <li>
-                    <a className=" relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500  hover:fill-current hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500" href="https://www.facebook.com/profile.php?id=100011973946922">
+                    <a
+                      className=" relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500  hover:fill-current hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500"
+                      href="https://www.facebook.com/profile.php?id=100011973946922"
+                    >
                       <FaFacebook />
                     </a>
                   </li>
                   <li>
-                    <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-gradient-to-tr from-violet-800 pink-500 to-red-500' href="https://www.instagram.com/grv.kx/?hl=en">
+                    <a
+                      className="relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-gradient-to-tr from-violet-800 pink-500 to-red-500"
+                      href="https://www.instagram.com/grv.kx/?hl=en"
+                    >
                       <FaInstagram />
                     </a>
                   </li>
                   <li>
-                    <a className='relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
-                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-black' href="https://github.com/chankxow">
+                    <a
+                      className="relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
+                    flex justify-center items-center rounded transition-all duration-500 hover:fill-current hover:text-white hover:bg-black"
+                      href="https://github.com/chankxow"
+                    >
                       <FaGithub />
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <motion.p 
-            variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}className=" text-center justify-end">CLICK FOR CONTACT</motion.p>
+            <motion.p
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: true, amount: 0.7 }}
+              className=" text-center justify-end font-bold"
+            >
+              CLICK FOR CONTACT
+            </motion.p>
           </div>
 
           <motion.div
@@ -139,17 +152,8 @@ const About = () => {
                   className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
                 >
-                  Poom ,Kiatipoom Palasan{" "}
+                  POOM , KIATTIPOOM PALASAN
                 </p>
-              </div>
-              <h1
-                className=" text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-              >
-                SKILL
-              </h1>
-              <div>
-                <p></p>
               </div>
 
               <h1
@@ -163,23 +167,52 @@ const About = () => {
                   className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
                 >
-                  30 Jan 2005
+                  30 มกราคม 2548
                 </p>
               </div>
-              <h1
-                className="text-transparent bg-gradient-to-b bg-clip-text
+
+              <div>
+                <div>
+                  <h1
+                    className="text-transparent bg-gradient-to-b bg-clip-text
      from-blue-500 to-green-500 font-bold text-[30px] pb-4"
-              >
-                ADDRESS
-              </h1>
-              <div
-                className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+                  >
+                    ADDRESS
+                  </h1>
+                </div>
+                <div
+                  className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
-              >
-                <p className="">
-                  77 หมู่ 4 ซอย 7 บ้านเลิงถ่อนโนนสมบูรณ์ ตำบลหนองหญ้าไซ
-                </p>
-                <p>อำเภอวังสามหมอ จังหวัดอุดรธานี 41280</p>
+                >
+                  <p className="">
+                    77 หมู่ 4 ซอย 7 บ้านเลิงถ่อนโนนสมบูรณ์ ตำบลหนองหญ้าไซ
+                  </p>
+                  <p>อำเภอวังสามหมอ จังหวัดอุดรธานี 41280</p>
+                </div>
+              </div>
+
+              <div>
+                <div className=" text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pb-4">
+                  <h1
+                    
+                  >
+                    SKILL
+                  </h1>
+                </div>
+                <div className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 flex ">
+                  <a className="mr-2" href="https://www.w3schools.com/html/"><img src="https://skillicons.dev/icons?i=html" alt="" /></a>
+                  <a className="mr-2" href="https://www.w3schools.com/css/default.asp"><img src="https://skillicons.dev/icons?i=css" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=js" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=react" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=tailwind" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=firebase" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=cpp" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=arduino" alt="" /></a>
+                  <a className="mr-2" href=""><img src="https://skillicons.dev/icons?i=visualstudio" alt="" /></a>
+                  
+                </div>
               </div>
             </div>
           </motion.div>
