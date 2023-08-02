@@ -81,10 +81,15 @@ const About = () => {
         <div className="flex flex-col gap-y-10 lg:flex-row h-max">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
             <div className="profile-img  ">
-              <div className="profile rounded-2xl">
+              <motion.div
+              variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}
+               className="profile rounded-2xl">
               
                 
-              </div>
+              </motion.div>
               <div className="content ">
                 <p className="title relative font-semibold tracking-widest text-center">KIATTIPOOM PALASAN</p>
                 <ul className="sci relative flex justify-center items-center gap-2 mt-2">
@@ -109,7 +114,11 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <p className=" text-center justify-end">CLICK FOR CONTACT</p>
+            <motion.p 
+            variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}className=" text-center justify-end">CLICK FOR CONTACT</motion.p>
           </div>
 
           <motion.div
