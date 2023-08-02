@@ -13,10 +13,8 @@ const App = () => {
     <Banner/>
     <div>
       <About/>
-        
       <Project/>
       <Activity/>
-      
       <Certificate/>
       <Contact/>
       <Nav/>
