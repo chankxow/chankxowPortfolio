@@ -27,6 +27,7 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
         iotproject:"url('./assets/iot.png')",
+        cesca17:"url('./assets/CESCa17-img.jpg')",
       },
     },
   },

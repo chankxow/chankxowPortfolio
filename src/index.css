@@ -239,10 +239,6 @@
   gap: 15px;
 }
 
-.cards .red {
-  background-color: #f43f5e;
-}
-
 .cards .white {
   background-color: #f8f8f8;
   color: black;
@@ -275,7 +271,7 @@
 
 .post-img {
   width: 320px;
-  height: 200px;
+  height: 250px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -284,9 +280,6 @@
 
 
 .post-img .post{
-  background-size:cover ;
-  background-color: #666666;background-image: url('./assets/img-profile.png');
-  background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   inset: 6px;
@@ -304,7 +297,7 @@
   transition: 0.5s;
 }
 
-.post-img:hover .content {
+.card:hover .content {
   transform: scale(1);
   bottom: 25px;
 }
