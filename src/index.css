@@ -292,3 +292,13 @@
   transform: scale(1);
   bottom: 25px;
 }
+
+.project-type {
+  background: #b2b2fd;
+  color: #1a41cd;
+  font-weight: bold;
+  padding: 0.3em 0.7em;
+  border-radius: 15px;
+  font-size: 12px;
+  letter-spacing: -0.6px
+}
