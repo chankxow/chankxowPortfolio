@@ -256,7 +256,6 @@
   transition: 400ms;
 }
 
-
 .cards .card:hover {
   transform: scale(105%);
 }
@@ -293,54 +292,3 @@
   transform: scale(1);
   bottom: 25px;
 }
-
-.certificate-post{
-  height: 254px;
-  width: 320px;
-  position: relative;
-  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius: 16px;
-  box-shadow: 0 0 20px 8px #d0d0d0;
-  overflow: hidden;
-}
-
- /*Image*/
-.certificate-image {
-  height: 250px;
-  width: 320px;
-  position: absolute;
-  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-  
-}
-
-/*Description */
-.certificate-description {
-  display: flex;
-  position: absolute;
-  gap: .5em;
-  flex-direction: column;
-  color: #212121;
-  height: 70%;
-  bottom: 0;
-  border-radius: 16px;
-  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-  padding: 1rem;
-}
-
-/*Text*/
-.text-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-
-.text-body {
-  font-size: 1rem;
-  line-height: 130%;
-}
-
-
-/* Hover states */
-.certificate-post:hover .certificate-description {
-  transform: translateY(100%);
-}
-

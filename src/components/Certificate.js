@@ -19,16 +19,22 @@ const Certificate = () => {
         >
           CERTIFICATE
         </motion.h1>
-
-        <div className="flex flex-col gap-y-10 lg:flex-row h-max">
-          <div className="certificate-post mr-4">
-            <div className="certificate-image"></div>
-            <div className="certificate-description bg-white/40">
-              <p className="text-title"> Card Title</p>
-              <p className="text-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-              </p>
+        <div className=" max-h-max max-w-max py-20">
+          <div className="flex flex-col gap-y-10 lg:flex-row h-max">
+          <div className="cards ">
+          <div className="card bg-slate-400 flex flex-col gap-y-10 lg:flex-row h-max ">
+              <div>
+                <p className="tip">Hover Me</p>
+              </div>
+              <div className="second-text ">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Suscipit accusamus distinctio eum tempora accusantium
+                  perspiciatis et similique, incidunt quibusdam velit?
+                </p>
+              </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
