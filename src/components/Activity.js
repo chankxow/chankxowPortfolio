@@ -33,10 +33,10 @@ const Activity = () => {
                       <div className=" relative font-semibold text-center">
                         <a
                           className="btn
-                    flex  mx-auto h-10 w-max"
+                    flex mx-auto h-10 w-max justify-center items-center"
                           href="https://drive.google.com/file/d/187c9aVVXowRu1v-0a0YmUdrI4FB634EC/view?usp=drive_link"
                         >
-                          <FaGoogleDrive />
+                         <FaGoogleDrive /> READ MORE
                         </a>
                       </div>
                     </div>

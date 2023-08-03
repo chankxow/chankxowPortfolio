@@ -19,8 +19,7 @@ const Certificate = () => {
         >
           CERTIFICATE
         </motion.h1>
-
-        <div className="flex flex-col gap-y-10 lg:flex-row max-w-max max-h-max  mx-auto m-10 ">asd</div>
+        <div className="flex flex-col gap-y-10 lg:flex-row max-w-max max-h-max  mx-auto m-10 "></div>
       </div>
     </div>
   );
