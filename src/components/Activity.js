@@ -36,7 +36,7 @@ const Activity = () => {
                     flex mx-auto h-10 w-max justify-center items-center"
                           href="https://drive.google.com/file/d/187c9aVVXowRu1v-0a0YmUdrI4FB634EC/view?usp=drive_link"
                         >
-                         <FaGoogleDrive /> READ MORE
+                          <FaGoogleDrive /> READ MORE
                         </a>
                       </div>
                     </div>
@@ -58,24 +58,62 @@ const Activity = () => {
                 </p>
                 <div className="flex flex-col gap-y-10 lg:flex-row max-w-max max-h-max  mx-auto ">
                   <div className=" bg-blue-500  rounded-2xl mr-4 px-5">
-                    <p className="font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-black to-red-500">• ENGINEERING</p>
+                    <p
+                      className="font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-black to-red-500"
+                    >
+                      • ENGINEERING
+                    </p>
                   </div>
                   <div className=" bg-blue-600  rounded-2xl mr-4 px-5">
-                    <p className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-red-500 to-yellow-500">• SOFTWARE</p>
+                    <p
+                      className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-red-500 to-yellow-500"
+                    >
+                      • SOFTWARE
+                    </p>
                   </div>
                   <div className=" bg-blue-700  rounded-2xl mr-4 px-5">
-                    <p className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-yellow-500 to-green-500">• HARDWARE</p>
+                    <p
+                      className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-yellow-500 to-green-500"
+                    >
+                      • HARDWARE
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
-        
+        <article
+          className="blog-post flex 
+        items-center max-w-xl p-10 
+        shadow-2xl rounded-xl"
+        >
+          <div
+            className="blog-post_img 
+          relative min-w-[35rem] 
+          max-w-[35rem] h-[30rem] translate-x-[-8rem]"
+          >
+            <div
+              className="block 
+            w-full h-full 
+            object-cover rounded-xl before:content-[] 
+            before:absolute before:inset-0 before:bg-cyan-300 
+            before:shadow-2xl before:rounded-xl opacity-50"
+            >IMG</div>
+          </div>
+          <div className="blog-post_info">
+            <div className="blog-post_date">
+              <span>Tuesday</span>
+              <span>2/14/2023</span>
+            </div>
+            <p className="blog-post_title"></p>
+            <p></p>
+            <a href="#">a</a>
+          </div>
+        </article>
       </div>
     </div>
   );
