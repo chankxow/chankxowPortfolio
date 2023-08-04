@@ -21,7 +21,6 @@ const Activity = () => {
         >
           -MY ACTIVITY-
         </motion.h1>
-
 <div className=" max-h-max max-w-max my-5 ">
 <div className=" bg-white lg:flex rounded-3xl max-h-max max-w-max p-4">
             <div
@@ -37,7 +36,7 @@ const Activity = () => {
                   className="text-sm text-grey-dark flex items-center"
                 >
                   <FaGithub />
-                  Chankxow <span></span>
+                  Chankxow
                 </a>
                 <p
                   className="text-2xl font-bold text-transparent bg-gradient-to-r bg-clip-text
