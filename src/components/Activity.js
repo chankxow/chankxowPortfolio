@@ -56,7 +56,7 @@ const Activity = () => {
                   มหาวิทยาลัยขอนแก่น
                   เป็นค่ายออนไลน์ที่ได้ทำโปรเจคเป็นทีมและได้รับประสบการณ์การเรียนรู้ทางด้านวิศวกรรมคอมพิวเตอร์ระดับเริ่มต้น
                 </p>
-                <div className="flex flex-col gap-y-10 lg:flex-row max-w-max max-h-max  mx-auto m-10 ">
+                <div className="flex flex-col gap-y-10 lg:flex-row max-w-max max-h-max  mx-auto ">
                   <div className=" bg-blue-500  rounded-2xl mr-4 px-5">
                     <p className="font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-black to-red-500">• ENGINEERING</p>
