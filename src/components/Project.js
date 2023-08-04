@@ -58,14 +58,45 @@ const Project = () => {
                   READ MORE
                 </a>
                 <div className="">
-                  <span  className="project-type mr-4">• IOT</span>
-                  <span  className="project-type mr-4"> • APP</span>
+                  <span className="project-type mr-4">• IOT</span>
+                  <span className="project-type mr-4"> • APP</span>
                   <span className="project-type mr-4"> • INNOVATION</span>
                 </div>
               </div>
             </div>
           </motion.div>
-         
+          <div class=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl">
+            <div
+              className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
+              alt="Sunset in the mountains"
+            ></div>
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2 text-indigo-600">SMART HYDROPONICS</div>
+              <p className="text-gray-700 text-base">
+                เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT
+                มาใช้ในทางการเกษตรร่วมกับการปลูกพืชแบบไฮโดรโปนิค
+              </p>
+              <a
+                className="btn 
+                    flex justify-center mt-4 items-center mx-auto h-10 w-max"
+                href="https://github.com/chankxow/Project_matthayom_5"
+              >
+                <FaGithub />
+                READ MORE
+              </a>
+            </div>
+            <div className="px-6 pt-4 pb-2">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                • IOT
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                • APP
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                • INNOVATION
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

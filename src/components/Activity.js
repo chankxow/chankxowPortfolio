@@ -75,6 +75,7 @@ const Activity = () => {
             
           </div>
         </div>
+        
       </div>
     </div>
   );
