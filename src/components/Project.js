@@ -27,7 +27,7 @@ const Project = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            class=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl"
+            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl"
           >
             <div
               className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
