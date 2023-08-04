@@ -77,16 +77,16 @@ const About = () => {
         </motion.div>
       </div>
 
-      <div className="mx-auto fleFx">
-        <div className="flex flex-col gap-y-10 lg:flex-row h-max">
+      <div className="mx-auto flex">
+        <div className="flex flex-col gap-y-10 lg:flex-row h-max mx-auto">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
-            <div className="profile-img  ">
+            <div className="profile-img text ">
               <motion.div
                 variants={fadeIn("right", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
-                className="profile rounded-2xl"
+                className="profile rounded-2xl "
               ></motion.div>
               <div className="content ">
                 <p className="title relative font-semibold tracking-widest text-center">
