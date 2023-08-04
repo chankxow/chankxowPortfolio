@@ -50,7 +50,7 @@ const Project = () => {
                 READ MORE
               </a>
             </div>
-            <div className="px-6 pt-4 pb-2">
+            <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
                 • IOT
               </span>
