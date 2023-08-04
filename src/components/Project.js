@@ -22,7 +22,6 @@ const Project = () => {
         </motion.h1>
 
         <div className="flex flex-col gap-y-10 lg:flex-row h-max my-4">
-        
           <motion.div
             variants={fadeIn("down", 0.2)}
             initial="hidden"
@@ -104,8 +103,6 @@ const Project = () => {
               </span>
             </div>
           </motion.div>
-
-          
 
           <motion.div
             variants={fadeIn("down", 0.2)}
@@ -150,7 +147,6 @@ const Project = () => {
         </div>
 
         <div className="flex flex-col gap-y-10 lg:flex-row h-max my-4">
-        
           <motion.div
             variants={fadeIn("down", 0.2)}
             initial="hidden"
@@ -232,8 +228,6 @@ const Project = () => {
               </span>
             </div>
           </motion.div>
-
-          
 
           <motion.div
             variants={fadeIn("down", 0.2)}
@@ -276,7 +270,6 @@ const Project = () => {
             </div>
           </motion.div>
         </div>
-
       </div>
     </section>
   );
