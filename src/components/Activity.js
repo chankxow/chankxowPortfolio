@@ -17,12 +17,12 @@ const Activity = () => {
           viewport={{ once: true, amount: 0.7 }}
           className="text-black mx-auto text-center text-[50px] 
     font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-blue-500 to-green-500 py-5  "
+     from-blue-500 to-green-500 py-10  "
         >
           -MY ACTIVITY-
         </motion.h1>
 
-<div className=" max-h-max max-w-max py-20 ">
+<div className=" max-h-max max-w-max my-5 ">
 <div className=" bg-white lg:flex rounded-3xl max-h-max max-w-max p-4">
             <div
               className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
