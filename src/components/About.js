@@ -77,7 +77,7 @@ const About = () => {
         </motion.div>
       </div>
 
-      <div className="mx-auto flex">
+      <div className="mx-auto fleFx">
         <div className="flex flex-col gap-y-10 lg:flex-row h-max">
           <div className="mx-auto hover:scale-[105%] transition-all duration-300 h-[400px]">
             <div className="profile-img  ">

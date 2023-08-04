@@ -18,7 +18,7 @@ const Nav = () => {
       activeClass='active' 
       smooth={true} 
       spy={true} 
-      className='hoverX cursor-pointer h-[60px] w-[60px] mx-auto flex items-center justify-center '> 
+      className='hoveโrX cursor-pointer h-[60px] w-[60px] mx-auto flex items-center justify-center '> 
          <BiHomeAlt/>
       </Link>
       </div>
