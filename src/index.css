@@ -302,3 +302,30 @@
   font-size: 12px;
   letter-spacing: -0.6px
 }
+
+@media (max-width: 1068px) {
+  .blog-post {
+    max-width: 80rem;
+  }
+  .blog-post_img{
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+}
+
+@media (max-width:868px){
+  .blog-post{
+    max-width: 70rem;
+  }
+}
+
+@media(max-width:768px){
+  .blog-post{
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+  .blog-post_img{
+    min-width:100%;
+    transform: translate(0, -8rem);
+  }
+}
