@@ -232,3 +232,11 @@
   transform: scale(1);
   bottom: 25px;
 }
+
+@media (max-width:768px){
+  .popup-img img{
+    width:95%;
+    
+
+  }
+}
