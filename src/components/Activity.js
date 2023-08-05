@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { FaGithub, FaGoogleDrive } from "react-icons/fa";
+import { FaGithub,} from "react-icons/fa";
 
 const Activity = () => {
   return (
@@ -38,11 +38,11 @@ const Activity = () => {
                   className="text-sm text-grey-dark flex items-center"
                 >
                   <FaGithub />
-                  Chankxow
+                  CESCa : Computer Engineering Summer Camp, KKU
                 </a>
                 <p
                   className="text-2xl font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-black via-indigo-500 to-blue-900 "
+     from-black via-indigo-500 to-blue-900 my-4"
                 >
                   CESCa#17 Online Camp
                 </p>
@@ -52,14 +52,7 @@ const Activity = () => {
                   มหาวิทยาลัยขอนแก่น
                   เป็นค่ายออนไลน์ที่ได้ทำโปรเจคเป็นทีมและได้รับประสบการณ์การเรียนรู้ทางด้านวิศวกรรมคอมพิวเตอร์ระดับเริ่มต้น
                 </p>
-                <a
-                  className="btn 
-                    flex justify-center mt-4 items-center mx-auto h-10 w-max"
-                  href="https://github.com/chankxow/CESCa-17"
-                >
-                  <FaGithub />
-                  READ MORE
-                </a>
+                
               </div>
               <div className="flex items-center">
                 <div className="text-[5px] flex mx-auto gap-x-2">
@@ -122,14 +115,7 @@ const Activity = () => {
                   มหาวิทยาลัยขอนแก่น
                   เป็นค่ายออนไลน์ที่ได้ทำโปรเจคเป็นทีมและได้รับประสบการณ์การเรียนรู้ทางด้านวิศวกรรมคอมพิวเตอร์ระดับเริ่มต้น
                 </p>
-                <a
-                  className="btn 
-                    flex justify-center mt-4 items-center mx-auto h-10 w-max"
-                  href="https://github.com/chankxow/CESCa-17"
-                >
-                  <FaGithub />
-                  READ MORE
-                </a>
+               
               </div>
               <div className="flex items-center">
                 <div className="text-[5px] flex mx-auto gap-x-2">
