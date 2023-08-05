@@ -20,7 +20,6 @@ const Certificate = () => {
         >
           -CERTIFICATE-
         </motion.h1>
-        
       </div>
     </div>
   );
