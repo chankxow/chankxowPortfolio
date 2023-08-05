@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import React, { useState } from 'react';
 import {  FaFacebookSquare, FaGithub,} from "react-icons/fa";
 const Activity = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  
-    const toggleModal = () => {
-      setIsModalOpen(!isModalOpen);
-    };
 
   return (
     <div

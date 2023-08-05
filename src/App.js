@@ -6,7 +6,6 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Activity from "./components/Activity";
 import Certificate from "./components/Certificate";
-import Popup from './components/Popupimg'
 const App = () => {
   return (
     <div className="grid bg-ac bgAnimation bg-no-repeat overflow-hidden bg-cover">
@@ -18,7 +17,7 @@ const App = () => {
         <Certificate />
         <Nav />
         <div className="h-[4000px]"></div>
-        <Popup/>
+       
       </div>
     </div>
   );
