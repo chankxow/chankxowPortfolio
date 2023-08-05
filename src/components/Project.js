@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub , } from "react-icons/fa";
 const Project = () => {
   return (
     <section

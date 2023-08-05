@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { FaGithub,} from "react-icons/fa";
+import {  FaFacebookSquare, FaGithub,} from "react-icons/fa";
 
 const Activity = () => {
   return (
@@ -34,10 +34,10 @@ const Activity = () => {
             >
               <div className="mb-8">
                 <a
-                  href="https://github.com/chankxow"
-                  className="text-sm text-grey-dark flex items-center"
+                  href="https://www.facebook.com/CESCa.KKU"
+                  className="text-sm text-grey-dark flex items-center hover:scale-[98%] ease-in-out transition-all duration-200"
                 >
-                  <FaGithub />
+                  <FaFacebookSquare className="text-[20px] text-indigo-600" />
                   CESCa : Computer Engineering Summer Camp, KKU
                 </a>
                 <p

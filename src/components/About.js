@@ -1,6 +1,6 @@
 import React from "react";
 //img
-import SchoolLogo from "../assets/stp-logo.png";
+import SchoolLogo from "../assets/about/stp-logo.png";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
@@ -143,7 +143,7 @@ const About = () => {
             <div className="mx-auto block p-8 f-anupan">
               <h1
                 className="text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+     from-blue-500 to-green-500 font-bold text-[30px] pt-3"
               >
                 NAME
               </h1>
@@ -158,7 +158,7 @@ const About = () => {
 
               <h1
                 className="text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+     from-blue-500 to-green-500 font-bold text-[30px] pt-3"
               >
                 BIRHDAY
               </h1>
@@ -175,7 +175,7 @@ const About = () => {
                 <div>
                   <h1
                     className="text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4"
+     from-blue-500 to-green-500 font-bold text-[30px] pt-3"
                   >
                     ADDRESS
                   </h1>
@@ -193,7 +193,7 @@ const About = () => {
 
               <div>
                 <div className=" text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pb-4">
+     from-blue-500 to-green-500 font-bold text-[30px] pt-2">
                   <h1
                     
                   >
