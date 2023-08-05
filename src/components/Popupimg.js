@@ -11,15 +11,21 @@ function ImageModal() {
   
     return (
       <div>
-        <button onClick={toggleModal}>Open Modal</button>
-        <Modal
+        <div onClick={toggleModal}>Open Modal</div>
+        
+        <div className="content ">
+                <p className="title relative font-semibold tracking-widest text-center">
+                  KIATTIPOOM PALASAN
+                </p>
+                <Modal
           isOpen={isModalOpen}
           onRequestClose={toggleModal}
           contentLabel="Image Modal"
         >
-          <img src={SchoolLogo} alt="Modal" />
+          <img src={SchoolLogo} alt="Modal mx-auto" />
           <button onClick={toggleModal}>Close Modal</button>
         </Modal>
+              </div>
       </div>
     );
   }

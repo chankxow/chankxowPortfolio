@@ -1,16 +1,21 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import React, { useState } from 'react';
 import {  FaFacebookSquare, FaGithub,} from "react-icons/fa";
-
 const Activity = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    const toggleModal = () => {
+      setIsModalOpen(!isModalOpen);
+    };
+
   return (
     <div
       id="activity"
       className="text-black section max-w-max mx-h-max mx-auto f-anupan"
     >
       <div className="container text-center w-full h-full">
-        <motion.h1
+        <motion.h1 
           variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
@@ -23,11 +28,14 @@ const Activity = () => {
         </motion.h1>
         <div className=" mx-auto ">
           <div className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
-            <div
+            <div 
               className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
               title="LOGO CESCa#17"
-            ></div>
+            >
+
+              
+            </div>
             <div
               className=" rounded-b lg:rounded-b-none lg:rounded-r 
              p-4 flex flex-col justify-between leading-normal"
@@ -149,6 +157,7 @@ const Activity = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
