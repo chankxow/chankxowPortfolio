@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import {  FaFacebookSquare, FaGithub,} from "react-icons/fa";
+import {  FaFacebookSquare, } from "react-icons/fa";
 const Activity = () => {
 
   return (
@@ -34,7 +34,9 @@ const Activity = () => {
               className=" rounded-b lg:rounded-b-none lg:rounded-r 
              p-4 flex flex-col justify-between leading-normal"
             >
-              <div className="mb-8">
+
+            <div className="border-double border-4 border-indigo-600 p-2">
+            <div className="mb-8">
                 <a
                   href="https://www.facebook.com/CESCa.KKU"
                   className="text-sm text-grey-dark flex items-center hover:scale-[98%] ease-in-out transition-all duration-200"
@@ -81,74 +83,14 @@ const Activity = () => {
                     >
                       • HARDWARE
                     </p>
-                  </div>
+                  </div></div>
+              
                 </div>
               </div>
             </div>
           </div>
 
-          <div className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
-            <div
-              className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
-               rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-              title="LOGO CESCa#17"
-            ></div>
-            <div
-              className=" rounded-b lg:rounded-b-none lg:rounded-r 
-             p-4 flex flex-col justify-between leading-normal"
-            >
-              <div className="mb-8">
-                <a
-                  href="https://github.com/chankxow"
-                  className="text-sm text-grey-dark flex items-center"
-                >
-                  <FaGithub />
-                  Chankxow
-                </a>
-                <p
-                  className="text-2xl font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-black via-indigo-500 to-blue-900 "
-                >
-                  CESCa#17 Online Camp
-                </p>
-                <p className="text-grey-darker  text-base">
-                  CESCa#17 ค่ายเยาวชนวิศวกรรมคอมพิวเตอร์ (Online camp) โดย
-                  สาขาวิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์
-                  มหาวิทยาลัยขอนแก่น
-                  เป็นค่ายออนไลน์ที่ได้ทำโปรเจคเป็นทีมและได้รับประสบการณ์การเรียนรู้ทางด้านวิศวกรรมคอมพิวเตอร์ระดับเริ่มต้น
-                </p>
-               
-              </div>
-              <div className="flex items-center">
-                <div className="text-[5px] flex mx-auto gap-x-2">
-                  <div className=" bg-blue-500  rounded-2xl p-2 ">
-                    <p
-                      className="font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-black to-red-500 1"
-                    >
-                      • ENGINEERING
-                    </p>
-                  </div>
-                  <div className=" bg-blue-600  rounded-2xl p-2">
-                    <p
-                      className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-red-500 to-yellow-500"
-                    >
-                      • SOFTWARE
-                    </p>
-                  </div>
-                  <div className=" bg-blue-700  rounded-2xl p-2">
-                    <p
-                      className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-yellow-500 to-green-500 "
-                    >
-                      • HARDWARE
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       
