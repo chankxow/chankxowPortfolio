@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import {  FaFacebookSquare, } from "react-icons/fa";
 const Activity = () => {
-
+  
   return (
     <div
       id="activity"
@@ -27,8 +27,6 @@ const Activity = () => {
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
               title="LOGO CESCa#17"
             >
-
-              
             </div>
             <div
               className=" rounded-b lg:rounded-b-none lg:rounded-r 

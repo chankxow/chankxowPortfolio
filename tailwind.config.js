@@ -26,6 +26,8 @@ module.exports = {
         iotproject:"url('./assets/project/iot.png')",
         cesca17:"url('./assets/activity/CESCa17-img.jpg')",
         cdg:"url('./assets/certificate/CDG.png')",
+        SHMCER:"url('./assets/certificate/SHMCER.jpg')",
+        CESCaCER:"url('./assets/certificate/CESCaCER.png')",
       },
     },
   },
