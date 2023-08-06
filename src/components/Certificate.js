@@ -5,6 +5,8 @@ import "flowbite";
 import C1 from "../assets/certificate/CESCaCER.png";
 import C2 from "../assets/certificate/CDG.png";
 import C3 from "../assets/certificate/SHMCER.jpg";
+import C4 from "../assets/certificate/CHULAMOOC.jpg";
+import C5 from "../assets/certificate/THAIMOOC.png";
 
 const Certificate = () => {
   return (
@@ -54,18 +56,19 @@ const Certificate = () => {
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="/docs/images/carousel/carousel-4.svg"
+                src={C4}
                 className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 alt="..."
               ></img>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="/docs/images/carousel/carousel-5.svg"
+                src={C5}
                 className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 alt="..."
               ></img>
             </div>
+            
           </div>
           <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
             <button
@@ -103,6 +106,7 @@ const Certificate = () => {
               aria-label="Slide 5"
               data-carousel-slide-to="4"
             ></button>
+           
           </div>
           <button
             type="button"
