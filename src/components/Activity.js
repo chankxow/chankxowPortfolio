@@ -5,9 +5,9 @@ const Activity = () => {
   return (
     <div
       id="activity"
-      className="text-black section max-w-max mx-h-max mx-auto f-anupan"
+      className="text-black section  mx-auto f-anupan"
     >
-      <div className="container text-center w-full h-full">
+      <div className="container text-center ">
         <motion.h1
           variants={fadeIn("up", 0.3)}
           initial="hidden"
@@ -65,7 +65,7 @@ const Activity = () => {
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <div className="text-[5px] flex mx-auto gap-x-2">
+                  <div className="text-[5px] flex mx-auto gap-2">
                     <div className=" bg-gray-300  rounded-2xl p-2 ">
                       <p
                         className="font-bold text-transparent bg-gradient-to-r bg-clip-text
@@ -147,8 +147,8 @@ const Activity = () => {
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <div className="text-[5px] flex mx-auto gap-x-2">
-                    <div className=" bg-gray-300  rounded-2xl p-2 ">
+                  <div className="text-[5px] flex mx-auto gap-2">
+                    <div className=" bg-gray-300 rounded-2xl p-2 ">
                       <p
                         className="font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-yellow-500 1"

@@ -76,10 +76,11 @@ const Project = () => {
           >
              
             <div className="px-6 py-4">
-            <div
+            <div className=" border-emerald-300 "><div
               className=" bg-Cafe bg-cover w-[320px] h-[250px] mt-4 mx-auto"
               
             ></div>
+            </div>
               <div className="font-bold text-xl mb-2 text-indigo-600">
                 <p>CAFESHOP</p>
               </div>
