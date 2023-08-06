@@ -29,16 +29,18 @@ const Project = () => {
             viewport={{ once: true, amount: 0.7 }}
             className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl mx-5"
           >
+             
+            <div className="px-6 py-4">
             <div
               className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
-              alt="Sunset in the mountains"
+              
             ></div>
-            <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-indigo-600">
-                SMART HYDROPONICS
+              <p>SMART HYDROPONICS</p>
+                
               </div>
               <p className="text-gray-700 text-base">
-                เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT
+                เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT MICROCONTROLLER
                 มาใช้ในทางการเกษตรร่วมกับการปลูกพืชแบบไฮโดรโปนิค
               </p>
               <a
@@ -51,99 +53,65 @@ const Project = () => {
               </a>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
                 • IOT
               </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
-                • APP
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
+                • APPLICATION
               </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
                 • INNOVATION
               </span>
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-900 mr-2 mb-2">
+                • ARDUINO
+              </span>
             </div>
-          </motion.div>
-
-          <motion.div
+          </motion.div><motion.div
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
             className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl mx-5"
           >
+             
+            <div className="px-6 py-4">
             <div
               className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
-              alt="Sunset in the mountains"
+              
             ></div>
-            <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-indigo-600">
-                CAFESHOP
+                <p>CAFESHOP</p>
               </div>
               <p className="text-gray-700 text-base">
-                เป็นโปรเจคกลุ่มB ที่ทำส่งในค่าย CESCa17 เป็นการเขียนโค้ดด้วยpython
+              เป็นโปรเจคกลุ่มB ที่ทำส่งในค่าย CESCa17 เป็นการเขียนโค้ดด้วยpython
                 ให้สามารถที่จะสั่งสินค่าและดูจำนวนเงินที่ได้
-              </p> 
-              <a
-                className="btn 
-                    flex justify-center mt-4 items-center mx-auto h-10 w-max"
-                href="https://github.com/chankxow/Project_matthayom_5"
-              >
-                <FaGithub />
-                READ MORE
-              </a>
-            </div>
-            <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
-                • IOT
-              </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
-                • APP
-              </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
-                • INNOVATION
-              </span>
-            </div>
-          </motion.div>
-
-          <motion.div
-            variants={fadeIn("down", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
-            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl mx-5"
-          >
-            <div
-              className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
-              alt="Sunset in the mountains"
-            ></div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-indigo-600">
-                SMART HYDROPONICS
-              </div>
-              <p className="text-gray-700 text-base">
-                เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT
-                มาใช้ในทางการเกษตรร่วมกับการปลูกพืชแบบไฮโดรโปนิค
               </p>
               <a
                 className="btn 
                     flex justify-center mt-4 items-center mx-auto h-10 w-max"
-                href="https://github.com/chankxow/Project_matthayom_5"
+                href="https://github.com/chankxow/CESCa-17"
               >
                 <FaGithub />
                 READ MORE
               </a>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
-                • IOT
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
+                • PYTHON
               </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
-                • APP
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
+                • CODING
               </span>
-              <span className="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
-                • INNOVATION
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
+                • PROGRAMMING
               </span>
+              
             </div>
           </motion.div>
+
+         
+
+          
         </div>
 
         
