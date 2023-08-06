@@ -23,7 +23,7 @@ const Project = () => {
 
         <div className="flex flex-col gap-10 lg:flex-row h-max my-4">
           <motion.div
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -68,7 +68,7 @@ const Project = () => {
             </div>
           </motion.div>
           <motion.div
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -77,7 +77,7 @@ const Project = () => {
              
             <div className="px-6 py-4">
             <div
-              className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
+              className=" bg-Cafe bg-cover w-[320px] h-[250px] mt-4 mx-auto"
               
             ></div>
               <div className="font-bold text-xl mb-2 text-indigo-600">

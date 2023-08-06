@@ -20,7 +20,13 @@ const Activity = () => {
           -MY ACTIVITY-
         </motion.h1>
         <div className=" mx-auto ">
-          <div className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+            className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
+          >
             <div
               className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
@@ -88,10 +94,14 @@ const Activity = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className=" mx-auto ">
-          <div className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
+          <motion.div 
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
             <div
               className="m-auto bg-LPLB bg-center h-[250px] w-[320px] flex-none bg-cover
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
@@ -108,8 +118,8 @@ const Activity = () => {
                     className="text-sm text-grey-dark flex items-center hover:scale-[98%] ease-in-out transition-all duration-200 w-fit"
                   >
                     <div className="text-[20px] text-indigo-600" />
-                    
-                    <div className="bg-Chula w-[20px] h-[20px] bg-cover" ></div>
+
+                    <div className="bg-Chula w-[20px] h-[20px] bg-cover"></div>
                     <p>CHULA MOOC</p>
                   </a>
                   <div className="date flex w-fit">
@@ -166,7 +176,7 @@ const Activity = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

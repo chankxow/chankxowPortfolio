@@ -32,6 +32,7 @@ module.exports = {
         CESCaCER: "url('./assets/certificate/CESCaCER.png')",
         LPLB: "url('./assets/activity/LPLB.png')",
         Chula:"url('https://mooc.chula.ac.th/images/favicon.ico')",
+        Cafe:"url('./assets/activity/Cafe.png')"
       },
     },
   },
