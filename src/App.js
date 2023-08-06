@@ -6,7 +6,6 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Activity from "./components/Activity";
 import Certificate from "./components/Certificate";
-import Footer from "./components/Footer"
 const App = () => {
   return (
     
@@ -18,8 +17,7 @@ const App = () => {
         <Activity />
         <Certificate />
         <Nav />
-        <div className="h-[400px]"></div>
-        <Footer/>
+        <div className="h-[200px]"></div>
       </div>
     </div>
   );

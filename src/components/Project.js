@@ -76,12 +76,12 @@ const Project = () => {
             ></div>
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-indigo-600">
-                SMART HYDROPONICS
+                CAFESHOP
               </div>
               <p className="text-gray-700 text-base">
-                เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT
-                มาใช้ในทางการเกษตรร่วมกับการปลูกพืชแบบไฮโดรโปนิค
-              </p>
+                เป็นโปรเจคกลุ่มB ที่ทำส่งในค่าย CESCa17 เป็นการเขียนโค้ดด้วยpython
+                ให้สามารถที่จะสั่งสินค่าและดูจำนวนเงินที่ได้
+              </p> 
               <a
                 className="btn 
                     flex justify-center mt-4 items-center mx-auto h-10 w-max"
