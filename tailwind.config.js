@@ -30,6 +30,8 @@ module.exports = {
         cdg: "url('./assets/certificate/CDG.png')",
         SHMCER: "url('./assets/certificate/SHMCER.jpg')",
         CESCaCER: "url('./assets/certificate/CESCaCER.png')",
+        LPLB: "url('./assets/activity/LPLB.png')",
+        Chula:"url('https://mooc.chula.ac.th/images/favicon.ico')",
       },
     },
   },

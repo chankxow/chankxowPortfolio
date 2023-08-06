@@ -21,15 +21,15 @@ const Project = () => {
           -PROJECT-
         </motion.h1>
 
-        <div className="flex flex-col gap-y-10 lg:flex-row h-max my-4">
+        <div className="flex flex-col gap-10 lg:flex-row h-max my-4">
           <motion.div
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl mx-5"
+            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl "
           >
-             
+             <div></div>
             <div className="px-6 py-4">
             <div
               className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
@@ -66,12 +66,13 @@ const Project = () => {
                 • ARDUINO
               </span>
             </div>
-          </motion.div><motion.div
+          </motion.div>
+          <motion.div
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl mx-5"
+            className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl "
           >
              
             <div className="px-6 py-4">
