@@ -8,8 +8,8 @@ import { fadeIn } from "../variants";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const About = () => {
   return (
-    <section id="about" className="section mx-auto max-w-max mx-h-max block">
-      <div className="container">
+    <section id="about" className="px-2 section mx-auto max-w-max mx-h-max block">
+      
         <motion.h1
           variants={fadeIn("down", 0.2)}
           initial="hidden"
@@ -59,7 +59,6 @@ const About = () => {
             </p>
           </motion.div>
         </div>
-      </div>
       <div className="w-max mx-auto">
         <motion.div
           variants={fadeIn("up", 0.2)}

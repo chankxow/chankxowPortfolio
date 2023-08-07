@@ -11,7 +11,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section id="home" className="section text-black pb-72">
-      <div className="container mx-auto ">
+      <div className=" mx-auto ">
         <div className=" mx-auto text-center text-5xl font-bold text-white">
           <motion.div
             className="text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500 "

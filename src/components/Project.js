@@ -6,9 +6,9 @@ const Project = () => {
   return (
     <section
       id="project"
-      className="f-anupan section mx-auto max-w-max mx-h-max block"
+      className="f-anupan section mx-auto w-max h-max block "
     >
-      <div className="container mx-auto">
+      <div className=" mx-auto">
         <motion.h1
           variants={fadeIn("down", 0.2)}
           initial="hidden"
