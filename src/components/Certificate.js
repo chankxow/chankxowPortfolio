@@ -21,30 +21,30 @@ const Certificate = () => {
           CERTIFICATE
         </motion.h1>
         <div className="flex flex-col gap-10 lg:flex-row  ">
-        <div className="bg-white h-full w-full ">
+          <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="">
                   <div
-                    class=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
-                    alt="Sunset in the mountains"
+                    className=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
+                    title="CERTIFICATE"
                   ></div>
                 </div>
 
-                <div class="px-6 ">
-                  <div class="font-bold text-xl mb-2">CESCa#17</div>
+                <div className="px-6 ">
+                  <div className="font-bold text-base mb-2">CESCa#17</div>
                 </div>
-                <div class="px-6  pb-2">
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #CAMP
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ENGINEERING
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ARDUINO
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
                 </div>
@@ -54,68 +54,34 @@ const Certificate = () => {
 
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="">
                   <div
-                    class=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
-                    alt="Sunset in the mountains"
+                    className=" bg-SHMCER bg-cover h-[250px]  w-[350px]"
+                    title="CERTIFICATE"
                   ></div>
                 </div>
 
-                <div class="px-6 ">
-                  <div class="font-bold text-xl mb-2">CESCa#17</div>
+                <div className="px-6 ">
+                  <div className="font-bold text-base mb-2">โครงงานคอมพิวเตอร์ประเภทซอฟแวร์ ครั้งที่70</div>
                 </div>
-                <div class="px-6  pb-2">
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #CAMP
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ENGINEERING
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ARDUINO
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="bg-white h-full w-full ">
-            <div className="p-2 mx-auto ">
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <div className="">
-                  <div
-                    class=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
-                    alt="Sunset in the mountains"
-                  ></div>
-                </div>
-
-                <div class="px-6 ">
-                  <div class="font-bold text-xl mb-2">CESCa#17</div>
-                </div>
-                <div class="px-6  pb-2">
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #CAMP
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #ENGINEERING
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #ARDUINO
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #PROGRAMMING
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-          
         </div>
       </div>
     </div>
