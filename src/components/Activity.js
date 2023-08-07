@@ -7,7 +7,7 @@ const Activity = () => {
       id="activity"
       className="text-black section  mx-auto f-anupan"
     >
-      <div className="container text-center ">
+      <div className="container text-center mx-auto items-center justify-center">
         <motion.h1
           variants={fadeIn("up", 0.3)}
           initial="hidden"
