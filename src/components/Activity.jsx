@@ -5,9 +5,9 @@ const Activity = () => {
   return (
     <div
       id="activity"
-      className="text-black section mx-auto f-anupan"
+      className="text-black section  mx-auto f-anupan"
     >
-      <div className=" text-center mx-auto items-center justify-center">
+      <div className=" mx-auto  ">
         <motion.h1
           variants={fadeIn("up", 0.3)}
           initial="hidden"
@@ -17,7 +17,7 @@ const Activity = () => {
     font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-10  "
         >
-          MY ACTIVITY
+        MY ACTIVITY
         </motion.h1>
         <div className=" mx-auto ">
           <motion.div
