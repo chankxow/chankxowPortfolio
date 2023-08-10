@@ -1,4 +1,3 @@
-import React from "react";
 //img
 import SchoolLogo from "../assets/about/stp-logo.png";
 import { motion } from "framer-motion";
@@ -8,57 +7,59 @@ import { fadeIn } from "../variants";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const About = () => {
   return (
-    <section id="about" className="px-2 section mx-auto max-w-max mx-h-max block">
-      
-        <motion.h1
-          variants={fadeIn("down", 0.2)}
+    <section
+      id="about"
+      className="px-2 section mx-auto max-w-max mx-h-max block"
+    >
+      <motion.h1
+        variants={fadeIn("down", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: true, amount: 0.7 }}
+        className="text-black mx-auto text-center text-[50px] 
+    font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-blue-500 to-green-500 py-5 "
+      >
+        -MY JOURNEY-
+      </motion.h1>
+
+      <div className="f-anupan text-black ">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-black mx-auto text-center text-[50px] 
-    font-bold text-transparent bg-gradient-to-r bg-clip-text
-     from-blue-500 to-green-500 py-5 "
+          className="py-6 text-center items-center block"
         >
-          -MY JOURNEY-
-        </motion.h1>
-
-        <div className="f-anupan text-black ">
-          <motion.div
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
-            className="py-6 text-center items-center block"
-          >
-            <img src={SchoolLogo} alt="" className="mx-auto text-[40px]" />
-            <div className="hover:scale-[105%] transition-all ease-in-out duration-200">
-              <a
-                href="http://srithatpit.ac.th/wcms/"
-                className="text-transparent bg-gradient-to-br bg-clip-text
+          <img src={SchoolLogo} alt="" className="mx-auto text-[40px]" />
+          <div className="hover:scale-[105%] transition-all ease-in-out duration-200">
+            <a
+              href="http://srithatpit.ac.th/wcms/"
+              className="text-transparent bg-gradient-to-br bg-clip-text
      from-black to-yellow-500 text-[48px] font-bold "
-              >
-                โรงเรียนศรีธาตุพิทยาคม
-              </a>
-            </div>
-          </motion.div>
-          <motion.div
-            variants={fadeIn("right", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
-          >
-            <p>
-              สวัสดีครับ, ผม นายเกียรติภูมิ พละสาร หรือชื่อเล่นว่า ภูมิ ครับ
-              เป็นนักเรียนจากโรงเรียนศรีธาตุพิทยาคม จังหวัดอุดรธานี ห้องเรียน
-              วิทย์-คณิต
-            </p>
-            <p>
-              ผมมีความชื่นชอบในด้านการเขียนโค้ดโปรแกรมมิ่ง การออกแบบเว็บไซต์
-              การพัฒนาระบบ<span> IOT </span>
-              และมีความใฝ่ฝันที่อยากจะเรียนต่อทางด้านวิศวกรรมคอมพิวเตอร์
-            </p>
-          </motion.div>
-        </div>
+            >
+              โรงเรียนศรีธาตุพิทยาคม
+            </a>
+          </div>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }}
+        >
+          <p>
+            สวัสดีครับ, ผม นายเกียรติภูมิ พละสาร หรือชื่อเล่นว่า ภูมิ ครับ
+            เป็นนักเรียนจากโรงเรียนศรีธาตุพิทยาคม จังหวัดอุดรธานี ห้องเรียน
+            วิทย์-คณิต
+          </p>
+          <p>
+            ผมมีความชื่นชอบในด้านการเขียนโค้ดโปรแกรมมิ่ง การออกแบบเว็บไซต์
+            การพัฒนาระบบ<span> IOT </span>
+            และมีความใฝ่ฝันที่อยากจะเรียนต่อทางด้านวิศวกรรมคอมพิวเตอร์
+          </p>
+        </motion.div>
+      </div>
       <div className="w-max mx-auto">
         <motion.div
           variants={fadeIn("up", 0.2)}
@@ -191,26 +192,55 @@ const About = () => {
               </div>
 
               <div>
-                <div className=" text-transparent bg-gradient-to-b bg-clip-text
-     from-blue-500 to-green-500 font-bold text-[30px] pt-2">
-                  <h1
-                    
-                  >
-                    SKILL
-                  </h1>
+                <div
+                  className=" text-transparent bg-gradient-to-b bg-clip-text
+     from-blue-500 to-green-500 font-bold text-[30px] pt-2"
+                >
+                  <h1>SKILL</h1>
                 </div>
-                <div className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
-     from-blue-500 to-green-500 flex ">
-                  <a className="mr-2" href="https://www.w3schools.com/html/"><img src="https://skillicons.dev/icons?i=html" alt="" /></a>
-                  <a className="mr-2" href="https://www.w3schools.com/css/default.asp"><img src="https://skillicons.dev/icons?i=css" alt="" /></a>
-                  <a className="mr-2" href="https://www.w3schools.com/js/default.asp"><img src="https://skillicons.dev/icons?i=js" alt="" /></a>
-                  <a className="mr-2" href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" alt="" /></a>
-                  <a className="mr-2" href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" alt="" /></a>
-                  <a className="mr-2" href="https://firebase.google.com/"><img src="https://skillicons.dev/icons?i=firebase" alt="" /></a>
-                  <a className="mr-2" href="https://www.w3schools.com/cpp/default.asp"><img src="https://skillicons.dev/icons?i=cpp" alt="" /></a>
-                  <a className="mr-2" href="https://www.arduino.cc/"><img src="https://skillicons.dev/icons?i=arduino" alt="" /></a>
-                  <a className="mr-2" href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=visualstudio" alt="" /></a>
-                  
+                <div
+                  className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
+     from-blue-500 to-green-500 flex "
+                >
+                  <a className="mr-2" href="https://www.w3schools.com/html/">
+                    <img src="https://skillicons.dev/icons?i=html" alt="" />
+                  </a>
+                  <a
+                    className="mr-2"
+                    href="https://www.w3schools.com/css/default.asp"
+                  >
+                    <img src="https://skillicons.dev/icons?i=css" alt="" />
+                  </a>
+                  <a
+                    className="mr-2"
+                    href="https://www.w3schools.com/js/default.asp"
+                  >
+                    <img src="https://skillicons.dev/icons?i=js" alt="" />
+                  </a>
+                  <a className="mr-2" href="https://react.dev/">
+                    <img src="https://skillicons.dev/icons?i=react" alt="" />
+                  </a>
+                  <a className="mr-2" href="https://tailwindcss.com/">
+                    <img src="https://skillicons.dev/icons?i=tailwind" alt="" />
+                  </a>
+                  <a className="mr-2" href="https://firebase.google.com/">
+                    <img src="https://skillicons.dev/icons?i=firebase" alt="" />
+                  </a>
+                  <a
+                    className="mr-2"
+                    href="https://www.w3schools.com/cpp/default.asp"
+                  >
+                    <img src="https://skillicons.dev/icons?i=cpp" alt="" />
+                  </a>
+                  <a className="mr-2" href="https://www.arduino.cc/">
+                    <img src="https://skillicons.dev/icons?i=arduino" alt="" />
+                  </a>
+                  <a className="mr-2" href="https://code.visualstudio.com/">
+                    <img
+                      src="https://skillicons.dev/icons?i=visualstudio"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // import icon
 import {BiHomeAlt, BiUser} from 'react-icons/bi'

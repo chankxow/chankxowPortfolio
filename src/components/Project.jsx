@@ -1,7 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { FaGithub , } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Project = () => {
   return (
     <section
@@ -29,15 +28,11 @@ const Project = () => {
             viewport={{ once: true, amount: 0.7 }}
             className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl "
           >
-             <div></div>
+            <div></div>
             <div className="px-6 py-4">
-            <div
-              className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"
-              
-            ></div>
+              <div className=" bg-iotproject bg-cover w-[320px] h-[250px] mt-4 mx-auto"></div>
               <div className="font-bold text-xl mb-2 text-indigo-600">
-              <p>SMART HYDROPONICS</p>
-                
+                <p>SMART HYDROPONICS</p>
               </div>
               <p className="text-gray-700 text-base">
                 เป็นโครงงานแข่งขันโดยจะนำการใช้ระบบ IOT MICROCONTROLLER
@@ -74,18 +69,16 @@ const Project = () => {
             viewport={{ once: true, amount: 0.7 }}
             className=" bg-white/60 max-w-sm rounded overflow-hidden shadow-2xl "
           >
-             
             <div className="px-6 py-4">
-            <div className=" border-emerald-300 "><div
-              className=" bg-Cafe bg-cover w-[320px] h-[250px] mt-4 mx-auto"
-              
-            ></div>
-            </div>
+              <div className=" border-emerald-300 ">
+                <div className=" bg-Cafe bg-cover w-[320px] h-[250px] mt-4 mx-auto"></div>
+              </div>
               <div className="font-bold text-xl mb-2 text-indigo-600">
                 <p>CAFESHOP</p>
               </div>
               <p className="text-gray-700 text-base">
-              เป็นโปรเจคกลุ่มB ที่ทำส่งในค่าย CESCa17 เป็นการเขียนโค้ดด้วยpython
+                เป็นโปรเจคกลุ่มB ที่ทำส่งในค่าย CESCa17
+                เป็นการเขียนโค้ดด้วยpython
                 ให้สามารถที่จะสั่งสินค่าและดูจำนวนเงินที่ได้
               </p>
               <a
@@ -107,16 +100,9 @@ const Project = () => {
               <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
                 • PROGRAMMING
               </span>
-              
             </div>
           </motion.div>
-
-         
-
-          
         </div>
-
-        
       </div>
     </section>
   );

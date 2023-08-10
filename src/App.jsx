@@ -1,5 +1,3 @@
-import React from "react";
-// components
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 import About from "./components/About";

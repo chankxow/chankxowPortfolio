@@ -1,4 +1,3 @@
-import React from "react";
 //img
 
 //animation
@@ -20,7 +19,7 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            HEY I'M
+            <p>HEY I{"'"}M</p>
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.5)}
