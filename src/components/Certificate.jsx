@@ -19,8 +19,12 @@ const Certificate = () => {
      from-blue-500 to-green-500 py-10  "
         >
           CERTIFICATE
-        </motion.h1>
-        <div className="flex flex-col gap-10 lg:flex-row  ">
+        </motion.h1 >
+        <motion.div 
+        variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.7 }} className="flex flex-col gap-10 lg:flex-row  ">
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
@@ -82,7 +86,7 @@ const Certificate = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
