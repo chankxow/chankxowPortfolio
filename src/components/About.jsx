@@ -88,11 +88,11 @@ const About = () => {
                 viewport={{ once: true, amount: 0.7 }}
                 className="profile rounded-2xl "
               ></motion.div>
-              <div className="content ">
-                <p className="title relative font-semibold tracking-widest text-center">
+              <div className="content  ">
+                <p className=" relative font-semibold tracking-widest text-center text-white">
                   KIATTIPOOM PALASAN
                 </p>
-                <ul className="sci relative flex justify-center items-center gap-2 mt-2">
+                <ul className=" relative flex justify-center items-center gap-2 mt-2 text-white">
                   <li>
                     <a
                       className=" relative text-gray-400 bg-slate-600 fill-currents w-[30px] h-[30px] 
@@ -128,7 +128,7 @@ const About = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className=" text-center justify-end font-bold"
+              className=" text-center justify-end font-bold text-white"
             >
               CLICK FOR CONTACT
             </motion.p>
