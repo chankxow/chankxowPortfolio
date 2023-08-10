@@ -6,7 +6,7 @@ import Activity from "./components/Activity";
 import Certificate from "./components/Certificate";
 const App = () => {
   return (
-    <div className=" box-border m-auto flex-col bg-ac bg-no-repeat overflow-hidden bg-cover">
+    <div className=" box-border mx-auto flex-col bg-no-repeat overflow-hidden">
       <Banner />
       <div className="">
         <div>

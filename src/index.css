@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@500&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 *{
   box-sizing: border-box;
   margin: 0 auto;
-  
+
 }
 
 body{
@@ -117,20 +115,20 @@ body{
                 calc(100% - var(--border-width)) 
 
                 calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-    
+
                 calc(100% - var(--border-width))
 
                 var(--border-width),
-    
+
                 /* top-right */
                 calc(100% - var(--border-width))
 
                  var(--border-width),
-    
+
                 calc(100% - var(--border-width)) 
 
                 calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
-    
+
                 /* bottom-right 1 */
                 calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
                 calc(100% - var(--border-width)),
@@ -167,8 +165,6 @@ body{
 .f-anupan{
   font-family: 'Anuphan', sans-serif;
 }
-
-
 
 
 
