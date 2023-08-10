@@ -89,7 +89,7 @@ const About = () => {
                 className="profile rounded-2xl "
               ></motion.div>
               <div className="content  ">
-                <p className=" relative font-semibold tracking-widest text-center text-white">
+                <p className=" relative font-semibold cover tracking-widest text-center text-white">
                   KIATTIPOOM PALASAN
                 </p>
                 <ul className=" relative flex justify-center items-center gap-2 mt-2 text-white">
