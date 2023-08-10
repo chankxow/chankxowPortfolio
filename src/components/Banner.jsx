@@ -11,25 +11,26 @@ const Banner = () => {
   return (
     <section id="home" className="section text-black pb-72">
       <div className=" mx-auto ">
-        <div className=" mx-auto text-center text-5xl font-bold text-white">
+        <div className=" mx-auto text-center text-4xl font-bold text-white">
           <motion.div
             className="text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500 "
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
+            type="string"
           >
-            <p>HEY I{"'"}M</p>
+            <p>HEY I'M</p>
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-8xl font-bold text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500"
+            className="text-6xl font-bold text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500"
           >
             <h1>POOM </h1>
-            <h1 className="text-7xl">KIATTIPOOM PALASAN</h1>
+            <h1 className="text-7xl mx-auto">KIATTIPOOM PALASAN</h1>
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.7)}

@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="px-2 section mx-auto max-w-max mx-h-max block"
+      className="px-2 mx-auto max-w-max mx-h-max block"
     >
       <motion.h1
         variants={fadeIn("down", 0.2)}
@@ -20,7 +20,7 @@ const About = () => {
     font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-5 "
       >
-        -MY JOURNEY-
+        MY JOURNEY
       </motion.h1>
 
       <div className="f-anupan text-black ">

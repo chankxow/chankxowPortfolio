@@ -17,7 +17,7 @@ const Project = () => {
     font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-10 "
         >
-          -PROJECT-
+          PROJECT
         </motion.h1>
 
         <div className="flex flex-col gap-10 lg:flex-row h-max my-4">

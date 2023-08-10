@@ -17,7 +17,7 @@ const Activity = () => {
     font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-10  "
         >
-          -MY ACTIVITY-
+          MY ACTIVITY
         </motion.h1>
         <div className=" mx-auto ">
           <motion.div
