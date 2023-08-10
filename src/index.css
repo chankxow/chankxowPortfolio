@@ -9,6 +9,7 @@
 
 }
 
+
 body{
   padding-top: 100px;
   background-size: cover;
@@ -28,7 +29,7 @@ body{
   --curve-size: .5em;
   --blur: 30px;
   --bg:white;
-  --color: #000000;
+  --color: #ff9900;
   color: var(--color);
     /* use position: relative; so that BG is only for .btn */
   position: relative;

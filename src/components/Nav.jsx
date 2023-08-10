@@ -14,7 +14,9 @@ const Nav = () => {
     <div className='w-full bg-black/20 h-[70px] backdrop-blur-2x1 
     rounded-full max-w-[400px] mx-auto px-5 flex justify-between items-center 
     text-2x1 text-white/50'>
-   <div><Link to='home' 
+   <div>
+   
+   <Link to='home' 
       activeClass='active' 
       smooth={true} 
       spy={true} 
