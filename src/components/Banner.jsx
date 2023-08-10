@@ -1,7 +1,3 @@
-import React from "react";
-//img
-
-//animation
 //type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -20,7 +16,7 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            HEY I'M
+            HEY I{"'"}M
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.5)}
@@ -29,8 +25,9 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="text-8xl font-bold text-transparent bg-gradient-to-br bg-clip-text from-blue-500 to-green-500"
           >
-            <h1>POOM </h1>
-            <h1 className="text-7xl">KIATTIPOOM PALASAN</h1>
+            <p>POOM </p>
+            <p className="text-6xl">KIATTIPOOM</p>
+            <p className="text-5xl">PALASAN</p>
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.7)}

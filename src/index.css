@@ -10,8 +10,7 @@
 }
 
 body{
-  padding: 15px;
-  background-position: center;
+  padding-top: 100px;
   background-size: cover;
   background-image:linear-gradient(white,rgba(120, 170, 255, 0.673));
   background-attachment: fixed;

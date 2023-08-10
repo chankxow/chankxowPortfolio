@@ -8,7 +8,7 @@ import {BsClipboardData, BsBriefcase,BsActivity} from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
-  return <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
+  return <nav className='mx-auto fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
   <div className="container mx-auto">
     {/*nav inner*/}
     <div className='w-full bg-black/20 h-[70px] backdrop-blur-2x1 
@@ -18,7 +18,7 @@ const Nav = () => {
       activeClass='active' 
       smooth={true} 
       spy={true} 
-      className='hoveโrX cursor-pointer h-[60px] w-[60px] mx-auto flex items-center justify-center '> 
+      className='hoverX cursor-pointer h-[60px] w-[60px] mx-auto flex items-center justify-center '> 
          <BiHomeAlt/>
       </Link>
       </div>

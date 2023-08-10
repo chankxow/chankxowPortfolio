@@ -3,13 +3,7 @@
     "development"
   ],
   "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "-webkit-text-size-adjust"
-        ]
-      }
-    ]
+    "axe/language": "off",
+    "disown-opener": "off"
   }
 }

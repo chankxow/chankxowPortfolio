@@ -5,7 +5,7 @@ const Activity = () => {
   return (
     <div
       id="activity"
-      className="text-black section  mx-auto f-anupan"
+      className="text-black section mx-auto f-anupan"
     >
       <div className=" text-center mx-auto items-center justify-center">
         <motion.h1
