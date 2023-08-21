@@ -22,7 +22,7 @@ const Activity = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className=" bg-gradient-to-b from-gray-300 via-gray-200 to-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
+            className="bg-white flex flex-col gap-y-10 lg:flex-row h-[100%]  p-5 m-2 rounded-sm"
           >
             <div
               className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
@@ -99,7 +99,7 @@ const Activity = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className=" bg-gradient-to-b from-gray-300 via-gray-200 to-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
+            className="bg-white flex flex-col gap-y-10 lg:flex-row h-[100%]  p-5 m-2 rounded-sm"
           >
             <div
               className="m-auto bg-LPLB bg-center h-[250px] w-[320px] flex-none bg-cover
