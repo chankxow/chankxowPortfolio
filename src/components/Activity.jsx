@@ -3,10 +3,7 @@ import { fadeIn } from "../variants";
 import { FaFacebookSquare } from "react-icons/fa";
 const Activity = () => {
   return (
-    <div
-      id="activity"
-      className="text-black section  mx-auto f-anupan"
-    >
+    <div id="activity" className="text-black section  mx-auto f-anupan">
       <div className=" mx-auto  ">
         <motion.h1
           variants={fadeIn("up", 0.3)}
@@ -17,7 +14,7 @@ const Activity = () => {
     font-bold text-transparent bg-gradient-to-r bg-clip-text
      from-blue-500 to-green-500 py-10  "
         >
-        MY ACTIVITY
+          MY ACTIVITY
         </motion.h1>
         <div className=" mx-auto ">
           <motion.div
@@ -25,7 +22,7 @@ const Activity = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
+            className=" bg-gradient-to-b from-gray-300 via-gray-200 to-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
           >
             <div
               className="m-auto bg-cesca17 bg-center h-[250px] w-[320px] flex-none bg-cover
@@ -97,15 +94,18 @@ const Activity = () => {
           </motion.div>
         </div>
         <div className=" mx-auto ">
-          <motion.div 
-          variants={fadeIn("up", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}className=" bg-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm">
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+            className=" bg-gradient-to-b from-gray-300 via-gray-200 to-white flex flex-col gap-y-10 lg:flex-row h-max my-4 p-5 rounded-sm"
+          >
             <div
               className="m-auto bg-LPLB bg-center h-[250px] w-[320px] flex-none bg-cover
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-              title="LOGO CESCa#17"
+              title="Learn Python: Language Basics and Fundamental Data
+                    Processing"
             ></div>
             <div
               className=" rounded-b lg:rounded-b-none lg:rounded-r 
