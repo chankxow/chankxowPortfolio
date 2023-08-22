@@ -4,6 +4,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Activity from "./components/Activity";
 import Certificate from "./components/Certificate";
+import Footer from './components/footer'
 const App = () => {
   return (
     <div className=" box-border mx-auto flex-col bg-no-repeat overflow-hidden">
@@ -14,7 +15,9 @@ const App = () => {
           <Activity />
           <Certificate />
           <Nav />
-        <div className="h-[200px]"></div>
+          <div className="h-[200px]"></div>
+          <Footer/>
+        
       </div>
     </div>
   );

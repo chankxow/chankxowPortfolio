@@ -23,7 +23,7 @@ const Certificate = () => {
           variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.1 }}
           className="flex flex-col gap-10 lg:flex-row  "
         >
           <div className="bg-white h-full w-full ">
@@ -73,9 +73,7 @@ const Certificate = () => {
                   </div>
                 </div>
                 <div className="px-6  pb-2">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #CAMP
-                  </span>
+                  
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ENGINEERING
                   </span>
@@ -85,6 +83,7 @@ const Certificate = () => {
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
+                  
                 </div>
               </div>
             </div>
@@ -109,14 +108,15 @@ const Certificate = () => {
                     #CAMP
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #ENGINEERING
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #ARDUINO
+                    #PYTHON
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
+                  
                 </div>
               </div>
             </div>
