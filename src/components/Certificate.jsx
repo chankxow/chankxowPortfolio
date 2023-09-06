@@ -1,7 +1,30 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { useState } from 'react';
+import Modal from 'react-modal';
+
+const modalStyle = {
+  content: {
+    width:'80%',
+    maxWidth: '600px',
+    margin: 'auto',
+    padding:'20px',
+  },
+};
 
 const Certificate = () => {
+
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div
       id="certificate"
@@ -29,11 +52,26 @@ const Certificate = () => {
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <div className="">
-                  <div
+                <div>
+                <div>
+      <button onClick={openModal}><div
                     className=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
                     title="CERTIFICATE"
+                  ></div></button>
+      <Modal
+        className="text-center justify-center items-center"
+        isOpen={isOpen}
+        onRequestClose={closeModal}
+        style={modalStyle}
+        contentLabel="Image Modal"
+      >
+       <div
+                    className="my-[20%] bg-CESCaCER bg-contain bg-no-repeat h-96 w-[100%]"
+                    title="CERTIFICATE"
                   ></div>
+        <button onClick={closeModal}></button>
+      </Modal>
+    </div>
                 </div>
 
                 <div className="px-6 ">
@@ -61,10 +99,13 @@ const Certificate = () => {
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="">
-                  <div
+                <div>
+      <button onClick={openModal}><div
                     className=" bg-SHMCER bg-cover h-[250px]  w-[350px]"
                     title="CERTIFICATE"
-                  ></div>
+                  ></div></button>
+     
+    </div>
                 </div>
 
                 <div className="px-6 ">
