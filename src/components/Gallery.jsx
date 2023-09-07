@@ -1,16 +1,17 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Modal from 'react-modal';
 
-// Style for the modal (you can customize this)
 const modalStyle = {
   content: {
-    maxWidth: '80%',
-    maxHeight: '80%',
+    width: '80%',  // Set a fixed or percentage-based width
+    maxWidth: '600px',  // Set a maximum width
     margin: 'auto',
+    padding: '20px',
   },
 };
 
-function ImageModal() {
+function ImageModal(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
@@ -23,20 +24,18 @@ function ImageModal() {
 
   return (
     <div>
-      <button onClick={openModal}><div
-                    className=" bg-CESCaCER bg-cover h-[250px]  w-[350px]"
-                    title="CERTIFICATE"
-                  ></div></button>
+      <button onClick={openModal}><img src={props.img} alt="" /></button>
       <Modal
         isOpen={isOpen}
         onRequestClose={closeModal}
         style={modalStyle}
         contentLabel="Image Modal"
       >
-       <div
-                    className=" bg-CESCaCER bg-cover h-[500px]  w-[700]"
-                    title="CERTIFICATE"
-                  ></div>
+        <img
+          src={props.imageSrc}
+          alt={props.imageAlt}
+          style={{ width: '100%', height: 'auto', maxHeight: '80vh' }}
+        />
         <button onClick={closeModal}>Close Modal</button>
       </Modal>
     </div>
