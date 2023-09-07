@@ -4,10 +4,10 @@ import Modal from 'react-modal';
 
 const modalStyle = {
   content: {
-    width: '100%',  // Set a fixed or percentage-based width
-    maxWidth: '600px',  // Set a maximum width
+    maxHeight: '80%',  // Set a fixed or percentage-based width
+    maxWidth: '80%',  // Set a maximum width
     margin: 'auto',
-    padding: '20px',
+    
   },
 };
 
@@ -34,9 +34,8 @@ function ImageModal(props) {
         <img
           src={props.imageSrc}
           alt={props.imageAlt}
-          style={{ width: '100%', height: 'auto', maxHeight: '80vh' }}
+          style={{ width: '100%', height: 'auto', maxHeight: '80vh',}}
         />
-        <button onClick={closeModal}></button>
       </Modal>
     </div>
   );
