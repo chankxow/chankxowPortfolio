@@ -3,7 +3,8 @@ import { fadeIn } from "../variants";
 import "./Gallery"
 import ImageModal from "./Gallery";
 import Cesca17 from "../assets/certificate/CESCaCER.png";
-import SchoolLogo from "../assets/about/stp-logo.png";
+import SHMCER from "../assets/certificate/SHMCER.jpg";
+import CDG from "../assets/certificate/CDG.png";
 
 const Certificate = () => {
   return (
@@ -33,11 +34,11 @@ const Certificate = () => {
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <div>
-                  <div>
+                
+                  <div className="max-w-max">
                     <ImageModal img={Cesca17} imageSrc={Cesca17} />
                   </div>
-                </div>
+               
 
                 <div className="px-6 ">
                   <div className="font-bold text-base mb-2">CESCa#17</div>
@@ -63,8 +64,8 @@ const Certificate = () => {
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <div>
-                <ImageModal img={SchoolLogo} imageSrc={SchoolLogo} />
+                <div className=" max-w-max">
+                <ImageModal img={SHMCER} imageSrc={SHMCER} />
                 </div>
 
                 <div className="px-6 ">
@@ -89,11 +90,9 @@ const Certificate = () => {
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <div className="">
-                  <div
-                    className=" bg-cdg bg-cover h-[250px]  w-[350px]"
-                    title="CERTIFICATE"
-                  ></div>
+                <div className=' max-w-max'>
+                <ImageModal  img={CDG} imageSrc={CDG} />
+
                 </div>
 
                 <div className="px-6 ">

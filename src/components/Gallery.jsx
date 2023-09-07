@@ -7,7 +7,7 @@ const modalStyle = {
     maxHeight: '80%',  // Set a fixed or percentage-based width
     maxWidth: '80%',  // Set a maximum width
     margin: 'auto',
-    
+
   },
 };
 
@@ -24,7 +24,7 @@ function ImageModal(props) {
 
   return (
     <div>
-      <button onClick={openModal}><img src={props.img} alt="" /></button>
+      <button onClick={openModal}><img className='w-[100%] h-[250px]' src={props.img} alt="" /></button>
       <Modal
         isOpen={isOpen}
         onRequestClose={closeModal}
@@ -35,6 +35,7 @@ function ImageModal(props) {
           src={props.imageSrc}
           alt={props.imageAlt}
           style={{ width: '100%', height: 'auto', maxHeight: '80vh',}}
+          className='item-center'
         />
       </Modal>
     </div>
