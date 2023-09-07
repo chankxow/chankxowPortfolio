@@ -202,40 +202,40 @@ const About = () => {
                   className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500 flex "
                 >
-                  <a className="mr-2" href="https://www.w3schools.com/html/">
+                  <a className="transition-all duration-200 hover:scale-[105%] mr-2" href="https://www.w3schools.com/html/">
                     <img src="https://skillicons.dev/icons?i=html" alt="" />
                   </a>
                   <a
-                    className="mr-2"
+                    className="transition-all duration-200 hover:scale-[105%] mr-2"
                     href="https://www.w3schools.com/css/default.asp"
                   >
                     <img src="https://skillicons.dev/icons?i=css" alt="" />
                   </a>
                   <a
-                    className="mr-2"
+                    className="transition-all duration-200 hover:scale-[105%] mr-2"
                     href="https://www.w3schools.com/js/default.asp"
                   >
                     <img src="https://skillicons.dev/icons?i=js" alt="" />
                   </a>
-                  <a className="mr-2" href="https://react.dev/">
+                  <a className="transition-all duration-200 hover:scale-[105%] mr-2" href="https://react.dev/">
                     <img src="https://skillicons.dev/icons?i=react" alt="" />
                   </a>
-                  <a className="mr-2" href="https://tailwindcss.com/">
+                  <a className="transition-all duration-200 hover:scale-[105%] mr-2" href="https://tailwindcss.com/">
                     <img src="https://skillicons.dev/icons?i=tailwind" alt="" />
                   </a>
-                  <a className="mr-2" href="https://firebase.google.com/">
+                  <a className="transition-all duration-200 hover:scale-[105%] mr-2" href="https://firebase.google.com/">
                     <img src="https://skillicons.dev/icons?i=firebase" alt="" />
                   </a>
                   <a
-                    className="mr-2"
+                    className="transition-all duration-200 hover:scale-[105%] mr-2"
                     href="https://www.w3schools.com/cpp/default.asp"
                   >
                     <img src="https://skillicons.dev/icons?i=cpp" alt="" />
                   </a>
-                  <a className="mr-2" href="https://www.arduino.cc/">
+                  <a className="transition-all duration-200 hover:scale-[105%] mr-2" href="https://www.arduino.cc/">
                     <img src="https://skillicons.dev/icons?i=arduino" alt="" />
                   </a>
-                  <a className="mr-2" href="https://code.visualstudio.com/">
+                  <a className=" transition-all duration-200 hover:scale-[105%] mr-2" href="https://code.visualstudio.com/">
                     <img
                       src="https://skillicons.dev/icons?i=visualstudio"
                       alt=""
