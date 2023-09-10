@@ -14,6 +14,8 @@ const modalStyle = {
 function ImageModal(props) {
   const [isOpen, setIsOpen] = useState(false);
 
+
+  
   const openModal = () => {
     setIsOpen(true);
   };
@@ -35,7 +37,7 @@ function ImageModal(props) {
           src={props.imageSrc}
           alt={props.imageAlt}
           style={{ width: '100%', height: 'auto', maxHeight: '80vh',}}
-          className='item-center'
+          className='item-center  '
         />
       </Modal>
     </div>
