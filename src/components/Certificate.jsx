@@ -166,9 +166,11 @@ const Certificate = () => {
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">
+                  <p className="font-bold text-base mb-2">
                     BASIC HARDWARE{" "}
-                  </div>
+                  </p>
+                  <p>การเขียนโปรแกรมควบคุมบอร์ดไมโครคอนโทรลเลอร์ขั้นพื้นฐาน</p>
+                  <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -189,9 +191,12 @@ const Certificate = () => {
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">
+                  <p className="font-bold text-base mb-2">
                     BASIC PYTHON PROGRAMMING:LOGIC
-                  </div>
+                  </p>
+                  <p>การเขียนโปรแกรมด้วยภาษา PYTHON ขั้นพื้นฐาน</p>
+                  <br />
+                  <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -223,6 +228,7 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">BASIC SOFTWARE WEBSITE</p>
+                  <p></p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
