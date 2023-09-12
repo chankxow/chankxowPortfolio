@@ -9,6 +9,8 @@ import tn1 from "../assets/certificate/tn1.png";
 import tn2 from "../assets/certificate/tn2.png";
 import tn3 from "../assets/certificate/tn3.png";
 import CHULAMOOC from "../assets/certificate/CHULAMOOC.jpg";
+import COMED from "../assets/certificate/COMED.png";
+import THAIMOOC from "../assets/certificate/THAIMOOC.png";
 
 
 const Certificate = () => {
@@ -38,7 +40,7 @@ const Certificate = () => {
         >
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className="max-w-max">
                   <ImageModal img={Cesca17} imageSrc={Cesca17} />
                 </div>
@@ -61,6 +63,9 @@ const Certificate = () => {
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
                 </div>
               </div>
             </div>
@@ -68,7 +73,7 @@ const Certificate = () => {
 
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className=" max-w-max">
                   <ImageModal img={SHMCER} imageSrc={SHMCER} />
                 </div>
@@ -77,7 +82,10 @@ const Certificate = () => {
                   <p className="font-bold text-base mb-2">
                     โครงงานคอมพิวเตอร์ประเภทซอฟแวร์ ครั้งที่70
                   </p>
-                  <p>ผลงานแข่งขันศิลปะหัตถกรรมโครงงานคอมพิวเตอร์ประเภทซอฟแวร์ครั้งที่ 70</p>
+                  <p>
+                    ผลงานแข่งขันศิลปะหัตถกรรมโครงงานคอมพิวเตอร์ประเภทซอฟแวร์ครั้งที่
+                    70
+                  </p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -89,13 +97,16 @@ const Certificate = () => {
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #APPLICATION
+                  </span>
                 </div>
               </div>
             </div>
           </div>
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className=" max-w-max">
                   <ImageModal img={CDG} imageSrc={CDG} />
                 </div>
@@ -104,7 +115,11 @@ const Certificate = () => {
                   <p className="font-bold text-base mb-2">
                     หลักสูตรอบรม Python Programming
                   </p>
-                  <p>อบรมเขียนโปรแกรมภาษา PYTHON จาก <br />CODE THIER DREAM</p>
+                  <p>
+                    อบรมเขียนโปรแกรมภาษา PYTHON จาก <br />
+                    CODE THIER DREAM
+                  </p>
+                  <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -119,6 +134,7 @@ const Certificate = () => {
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #CODING
                   </span>
+                  <br />
                 </div>
               </div>
             </div>
@@ -134,24 +150,25 @@ const Certificate = () => {
         >
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className="max-w-max">
                   <ImageModal img={CHULAMOOC} imageSrc={CHULAMOOC} />
                 </div>
 
                 <div className="px-6 ">
-                  <p className="font-bold text-base mb-2">Learn Python: Language Basics and Fundamental Data Processing</p>
+                  <p className="font-bold text-base mb-2">
+                    Learn Python: Language Basics and Fundamental Data
+                    Processing
+                  </p>
                   <p>เรียนภาษา Python ตั้งแต่เริ่มต้น โดย CHULAMOOC</p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #WEB
+                    #PYTHON
                   </span>
+                  
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #HTML & CSS
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #CODING
+                    #PROGRAMMING
                   </span>
                 </div>
               </div>
@@ -160,24 +177,26 @@ const Certificate = () => {
 
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]" >
                 <div className=" max-w-max">
                   <ImageModal img={tn2} imageSrc={tn2} />
                 </div>
 
                 <div className="px-6 ">
-                  <p className="font-bold text-base mb-2">
-                    BASIC HARDWARE{" "}
-                  </p>
+                  <p className="font-bold text-base mb-2">BASIC HARDWARE </p>
                   <p>การเขียนโปรแกรมควบคุมบอร์ดไมโครคอนโทรลเลอร์ขั้นพื้นฐาน</p>
                   <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #CODING
+                    #PROGRAMMING
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ARDUINO
+                  </span>
+                 
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
                   </span>
                 </div>
               </div>
@@ -185,7 +204,7 @@ const Certificate = () => {
           </div>
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className=" max-w-max">
                   <ImageModal img={tn3} imageSrc={tn3} />
                 </div>
@@ -212,7 +231,8 @@ const Certificate = () => {
               </div>
             </div>
           </div>
-        </motion.div><motion.div
+        </motion.div>
+        <motion.div
           variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
@@ -221,13 +241,72 @@ const Certificate = () => {
         >
           <div className="bg-white h-full w-[400px] ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className="max-w-max">
                   <ImageModal img={tn1} imageSrc={tn1} />
                 </div>
 
                 <div className="px-6 ">
-                  <p className="font-bold text-base mb-2">BASIC SOFTWARE WEBSITE</p>
+                  <p className="font-bold text-base mb-2">
+                    BASIC SOFTWARE WEBSITE
+                  </p>
+                  <p></p>
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #PROGRAMMING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
+                <div className="max-w-max">
+                  <ImageModal img={COMED} imageSrc={COMED} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">
+                    BASIC SOFTWARE WEBSITE
+                  </p>
+                  <p></p>
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #PROGRAMMING
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
+                <div className="max-w-max">
+                  <ImageModal img={THAIMOOC} imageSrc={THAIMOOC} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">
+                    BASIC SOFTWARE WEBSITE
+                  </p>
                   <p></p>
                 </div>
                 <div className="px-6  pb-2">
@@ -244,9 +323,6 @@ const Certificate = () => {
               </div>
             </div>
           </div>
-
-         
-          
         </motion.div>
       </div>
     </div>
