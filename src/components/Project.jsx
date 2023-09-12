@@ -55,11 +55,17 @@ const Project = () => {
               <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-green-500 mr-2 mb-2">
                 • APPLICATION
               </span>
-              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-indigo-500 mr-2 mb-2">
+                • CODING
+              </span>
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-pink-500 mr-2 mb-2">
                 • INNOVATION
               </span>
               <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-900 mr-2 mb-2">
                 • ARDUINO
+              </span>
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-orange-500 mr-2 mb-2">
+                • PROGRAMMING
               </span>
             </div>
           </motion.div>
@@ -93,6 +99,9 @@ const Project = () => {
               </a>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
+            <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-red-500 mr-2 mb-2">
+                • LEARNING PROJECT
+              </span>
               <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
                 • PYTHON
               </span>
@@ -134,6 +143,9 @@ const Project = () => {
               </a>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
+              <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-red-500 mr-2 mb-2">
+                • LEARNING PROJECT
+              </span>
               <span className="inline-block bg-blue-300 rounded-full px-3 py-1 text-sm font-semibold text-blue-500 mr-2 mb-2">
                 • PYTHON
               </span>
