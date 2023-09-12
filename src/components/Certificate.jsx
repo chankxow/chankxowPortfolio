@@ -8,6 +8,8 @@ import CDG from "../assets/certificate/CDG.png";
 import tn1 from "../assets/certificate/tn1.png";
 import tn2 from "../assets/certificate/tn2.png";
 import tn3 from "../assets/certificate/tn3.png";
+import CHULAMOOC from "../assets/certificate/CHULAMOOC.jpg";
+
 
 const Certificate = () => {
   return (
@@ -42,9 +44,11 @@ const Certificate = () => {
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">CESCa#17</div>
+                  <p className="font-bold text-base mb-2">CESCa#17 </p>
+                  <p>ค่ายเยาวชนวิศวกรรมคอมพิวเตอร์ (Online camp)</p>
+                  <br />
                 </div>
-                <div className="px-6  pb-2">
+                <div className="px-6 pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #CAMP
                   </span>
@@ -70,9 +74,10 @@ const Certificate = () => {
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">
+                  <p className="font-bold text-base mb-2">
                     โครงงานคอมพิวเตอร์ประเภทซอฟแวร์ ครั้งที่70
-                  </div>
+                  </p>
+                  <p>ผลงานแข่งขันศิลปะหัตถกรรมโครงงานคอมพิวเตอร์ประเภทซอฟแวร์ครั้งที่ 70</p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -96,9 +101,10 @@ const Certificate = () => {
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">
+                  <p className="font-bold text-base mb-2">
                     หลักสูตรอบรม Python Programming
-                  </div>
+                  </p>
+                  <p>อบรมเขียนโปรแกรมภาษา PYTHON จาก <br />CODE THIER DREAM</p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -130,11 +136,12 @@ const Certificate = () => {
             <div className="p-2 mx-auto ">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="max-w-max">
-                  <ImageModal img={tn1} imageSrc={tn1} />
+                  <ImageModal img={CHULAMOOC} imageSrc={CHULAMOOC} />
                 </div>
 
                 <div className="px-6 ">
-                  <div className="font-bold text-base mb-2">BASIC SOFTWARE WEBSITE</div>
+                  <p className="font-bold text-base mb-2">Learn Python: Language Basics and Fundamental Data Processing</p>
+                  <p>เรียนภาษา Python ตั้งแต่เริ่มต้น โดย CHULAMOOC</p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -200,6 +207,40 @@ const Certificate = () => {
               </div>
             </div>
           </div>
+        </motion.div><motion.div
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.1 }}
+          className="flex flex-col gap-10 lg:flex-row my-4"
+        >
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-max">
+                  <ImageModal img={tn1} imageSrc={tn1} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">BASIC SOFTWARE WEBSITE</p>
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          
         </motion.div>
       </div>
     </div>
