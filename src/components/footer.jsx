@@ -52,23 +52,19 @@ const Footer = () => {
               MADE WITH
             </h6>
             <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                REACT
+              <a href="https://vitejs.dev/" className="text-neutral-600 dark:text-neutral-200">
+                ReactJS & ViteJS
               </a>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+              <a href="https://tailwindcss.com/" className="text-neutral-600 dark:text-neutral-200">
                 TAILWIND CSS
               </a>
             </p>
-            <p className="mb-4">
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                VITEJS
-              </a>
-            </p>
+            
             <p>
-              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Laravel
+              <a href="https://www.w3schools.com/html/html_css.asp" className="text-neutral-600 dark:text-neutral-200">
+                HTML & CSS
               </a>
             </p>
           </div>
