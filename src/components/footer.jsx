@@ -1,3 +1,9 @@
+import {BiLogoFacebookCircle,BiLogoInstagram,BiLogoGithub } from "react-icons/bi";
+
+
+
+
+
 const Footer = () => {
   return (
     <footer className=" f-anupan bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
@@ -7,26 +13,18 @@ const Footer = () => {
         </div>
         <div className="flex justify-center">
           <a
-            href="#!"
-            className="mr-6 text-neutral-600 dark:text-neutral-200"
-          ></a>
+            href="https://www.facebook.com/profile.php?id=100011973946922"
+            className="mr-6 text-neutral-600 dark:text-neutral-200 text-3xl"
+          ><BiLogoFacebookCircle/> </a>
           <a
-            href="#!"
-            className="mr-6 text-neutral-600 dark:text-neutral-200"
-          ></a>
+            href="https://www.instagram.com/grv.kx/?hl=en"
+            className="mr-6 text-neutral-600 dark:text-neutral-200 text-3xl"
+          ><BiLogoInstagram/></a>
           <a
-            href="#!"
-            className="mr-6 text-neutral-600 dark:text-neutral-200"
-          ></a>
-          <a
-            href="#!"
-            className="mr-6 text-neutral-600 dark:text-neutral-200"
-          ></a>
-          <a
-            href="#!"
-            className="mr-6 text-neutral-600 dark:text-neutral-200"
-          ></a>
-          <a href="#!" className="text-neutral-600 dark:text-neutral-200"></a>
+            href="https://github.com/chankxow"
+            className="mr-6 text-neutral-600 dark:text-neutral-200 text-3xl"
+          ><BiLogoGithub/></a>
+          
         </div>
       </div>
 
@@ -51,21 +49,21 @@ const Footer = () => {
           </div>
           <div className="mx-auto">
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-              Products
+              MADE WITH
             </h6>
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Angular
+                REACT
               </a>
             </p>
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                React
+                TAILWIND CSS
               </a>
             </p>
             <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Vue
+                VITEJS
               </a>
             </p>
             <p>
