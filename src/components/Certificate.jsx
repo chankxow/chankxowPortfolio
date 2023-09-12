@@ -11,6 +11,9 @@ import tn3 from "../assets/certificate/tn3.png";
 import CHULAMOOC from "../assets/certificate/CHULAMOOC.jpg";
 import COMED from "../assets/certificate/COMED.png";
 import THAIMOOC from "../assets/certificate/THAIMOOC.png";
+import SAPA from "../assets/certificate/SAPA.jpg";
+import TREAM from "../assets/certificate/tream.png";
+import COMFAIR from "../assets/certificate/COMFAIRWEB.jpg";
 
 
 const Certificate = () => {
@@ -163,13 +166,13 @@ const Certificate = () => {
                   <p>เรียนภาษา Python ตั้งแต่เริ่มต้น โดย CHULAMOOC</p>
                 </div>
                 <div className="px-6  pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #LEARING
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PYTHON
                   </span>
-                  
+
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
                   </span>
@@ -183,7 +186,7 @@ const Certificate = () => {
 
           <div className="bg-white h-full w-full ">
             <div className="p-2 mx-auto ">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]" >
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
                 <div className=" max-w-max">
                   <ImageModal img={tn2} imageSrc={tn2} />
                 </div>
@@ -200,7 +203,7 @@ const Certificate = () => {
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #ARDUINO
                   </span>
-                 
+
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #CODING
                   </span>
@@ -237,6 +240,7 @@ const Certificate = () => {
             </div>
           </div>
         </motion.div>
+        
         <motion.div
           variants={fadeIn("up", 0.3)}
           initial="hidden"
@@ -281,8 +285,12 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                  COMPUTER EDUCATION KKU OPEN HOUSE 2022                  </p>
-                  <p>เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION KKU OPEN HOUSE  </p>
+                    COMPUTER EDUCATION KKU OPEN HOUSE 2022{" "}
+                  </p>
+                  <p>
+                    เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION
+                    KKU OPEN HOUSE{" "}
+                  </p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -310,9 +318,104 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
+                    THAIMOOC 
+                  </p>
+                  <p>อบรมการพัฒนาเว็บเบื้องต้นด้วย HTML & CSS 10ชม.</p>
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div><motion.div
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, amount: 0.1 }}
+          className="flex flex-col gap-10 lg:flex-row my-4"
+        >
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
+                <div className="max-w-max">
+                  <ImageModal img={COMFAIR} imageSrc={COMFAIR} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">
                     BASIC SOFTWARE WEBSITE
                   </p>
-                  <p></p>
+                  <p>การเขียนเว็บไซต์ด้วย HTML & CSS ขั้นพื้นฐาน</p>
+                  <br />
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #PROGRAMMING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
+                <div className="max-w-max">
+                  <ImageModal img={SAPA} imageSrc={SAPA} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">
+                    COMPUTER EDUCATION KKU OPEN HOUSE 2022{" "}
+                  </p>
+                  <p>
+                    เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION
+                    KKU OPEN HOUSE{" "}
+                  </p>
+                </div>
+                <div className="px-6  pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #WEB
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #HTML & CSS
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #PROGRAMMING
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white h-full w-[400px] ">
+            <div className="p-2 mx-auto ">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg h-[450px]">
+                <div className="max-w-max">
+                  <ImageModal img={TREAM} imageSrc={TREAM} />
+                </div>
+
+                <div className="px-6 ">
+                  <p className="font-bold text-base mb-2">
+                    กิจกรรมรับน้อง 
+                  </p>
+                  <p>เป็นตำแหน่งสตาฟในกิจกรรมรับน้องโรงเรียน</p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
