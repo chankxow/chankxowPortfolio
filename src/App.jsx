@@ -14,6 +14,7 @@ const App = () => {
           <About />
           <Project />
           <Activity />
+          
           <Certificate />
           <Nav />
           <div className="h-[200px]"></div>
