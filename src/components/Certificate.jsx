@@ -163,12 +163,18 @@ const Certificate = () => {
                   <p>เรียนภาษา Python ตั้งแต่เริ่มต้น โดย CHULAMOOC</p>
                 </div>
                 <div className="px-6  pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #LEARING
+                  </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PYTHON
                   </span>
                   
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #PROGRAMMING
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #CODING
                   </span>
                 </div>
               </div>
@@ -215,7 +221,6 @@ const Certificate = () => {
                   </p>
                   <p>การเขียนโปรแกรมด้วยภาษา PYTHON ขั้นพื้นฐาน</p>
                   <br />
-                  <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -250,7 +255,8 @@ const Certificate = () => {
                   <p className="font-bold text-base mb-2">
                     BASIC SOFTWARE WEBSITE
                   </p>
-                  <p></p>
+                  <p>การเขียนเว็บไซต์ด้วย HTML & CSS ขั้นพื้นฐาน</p>
+                  <br />
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -275,9 +281,8 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                    BASIC SOFTWARE WEBSITE
-                  </p>
-                  <p></p>
+                  COMPUTER EDUCATION KKU OPEN HOUSE 2022                  </p>
+                  <p>เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION KKU OPEN HOUSE  </p>
                 </div>
                 <div className="px-6  pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
