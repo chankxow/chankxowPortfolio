@@ -34,7 +34,8 @@ export default {
         LPLB: "url('./assets/activity/LPLB.png')",
         Chula:"url('https://mooc.chula.ac.th/images/favicon.ico')",
         Cafe:"url('./assets/activity/Cafe.png')",
-        LWK:"url('./assets/activity/LP_WK.png')"
+        LWK:"url('./assets/activity/LP_WK.png')",
+        TNACA:"url('./assets/activity/TNACA.jpg')"
 
       },
     },

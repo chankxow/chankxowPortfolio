@@ -102,6 +102,82 @@ const Activity = () => {
             className="bg-white flex flex-col gap-y-10 lg:flex-row h-[100%]  p-5 m-2 rounded-sm"
           >
             <div
+              className="m-auto bg-TNACA bg-center h-[250px] w-[320px] flex-none bg-cover
+               rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+              title="Learn Python: Language Basics and Fundamental Data
+                    Processing"
+            ></div>
+            <div
+              className=" rounded-b lg:rounded-b-none lg:rounded-r 
+             p-4 flex flex-col justify-between leading-normal"
+            >
+              <div className="border-double border-4 border-indigo-600 p-2">
+                <div className="mb-8">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100084341012771"
+                    className="text-sm text-grey-dark flex items-center hover:scale-[98%] ease-in-out transition-all duration-200 w-fit"
+                  >
+                    <div className="text-[20px] text-indigo-600" />
+
+                    <div className="bg-TNACA w-[20px] h-[20px] bg-cover"></div>
+                    <p>TN Software&Tech Academy </p>
+                  </a>
+                  <div className="date flex w-fit">
+                    <span className="text-[10px] text-gray-500">
+                      22 Oct. 2022 - 23 Oct. 2022
+                    </span>
+                  </div>
+                  <p
+                    className="text-2xl font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-black via-yellow-500 to-red-700 my-4"
+                  >
+                    TN Software&Tech Academy 
+                  </p>
+                  <p className="text-grey-darker  text-base">
+                    เป็นกิจกรรมอบรมที่เรียนทั้ง SOFTWARE & HARDWARE ด้วยกันโดยในกิจจกรมจะให้เรานั้นเรียนรู้ใสเรื่อง SOFTWARE ที่เกียวกับการพัฒนาเว็บไซต์และโปรแกรม ส่วน HARDWARE นั้นจะเรียนในเรื่องการต่อวงจรและภาษาที่ใช้เขียนในการควบคุมบอร์ดไมโครคอนโทรลเลอร์
+                  </p>
+                </div>
+                <div className="flex items-center">
+                  <div className="text-[5px] flex mx-auto gap-2">
+                    <div className=" bg-gray-300 rounded-2xl p-2 ">
+                      <p
+                        className="font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-blue-500 to-yellow-500 1"
+                      >
+                        • PYTHON
+                      </p>
+                    </div>
+                    <div className=" bg-gray-300  rounded-2xl p-2">
+                      <p
+                        className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-red-500 to-yellow-500"
+                      >
+                        • SOFTWARE
+                      </p>
+                    </div>
+                    <div className=" bg-gray-300  rounded-2xl p-2">
+                      <p
+                        className=" font-bold text-transparent bg-gradient-to-r bg-clip-text
+     from-yellow-500 to-green-500 "
+                      >
+                        • HARDWARE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+        <div className=" mx-auto ">
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+            className="bg-white flex flex-col gap-y-10 lg:flex-row h-[100%]  p-5 m-2 rounded-sm"
+          >
+            <div
               className="m-auto bg-LPLB bg-center h-[250px] w-[320px] flex-none bg-cover
                rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
               title="Learn Python: Language Basics and Fundamental Data
@@ -177,7 +253,8 @@ const Activity = () => {
               </div>
             </div>
           </motion.div>
-        </div>
+        </div> 
+        
       </div>
     </div>
   );
