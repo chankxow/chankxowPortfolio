@@ -352,9 +352,9 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                    BASIC SOFTWARE WEBSITE
+                    Web Programming Compettition 2023
                   </p>
-                  <p>การเขียนเว็บไซต์ด้วย HTML & CSS ขั้นพื้นฐาน</p>
+                  <p>เข้าร่วมแข่งขันเขียนเว็บแอป ด้วยภาษา PHP ในงาน Computer Fair มหาวิทยาลัยขอนแก่น</p>
                   <br />
                 </div>
                 <div className="px-6  pb-2">
@@ -380,11 +380,10 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                  ค่ายปรับพื้นฐานเตรียมความพร้อมน้องใหม่ ม.1 และ ม.4 โรงเรียนศรีธาตุพิทยาคม{" "}
+                  เป็นสมาชิกสภานักเรียนโรงเรียนศรีธาตุพิทยาคม{" "}
                   </p>
                   <p>
-                    เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION
-                    KKU OPEN HOUSE{" "}
+                    เป็นสมาชิกช่วยงานกิจกรรมต่างๆในโรงเรียนเมื่อมีกิจกรรม{" "}
                   </p>
                 </div>
                 <div className="px-6  pb-2">
@@ -413,7 +412,7 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                    กิจกรรมรับน้อง 
+                  ค่ายปรับพื้นฐานเตรียมความพร้อมน้องใหม่ ม.1 และ ม.4 โรงเรียนศรีธาตุพิทยาคม 
                   </p>
                   <p>เป็นตำแหน่งสตาฟในกิจกรรมรับน้องโรงเรียน</p>
                 </div>
