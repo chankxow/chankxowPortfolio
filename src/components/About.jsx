@@ -151,7 +151,7 @@ const About = () => {
                   className="text-[20px] text-transparent bg-gradient-to-t bg-clip-text
      from-blue-500 to-green-500"
                 >
-                  POOM , KIATTIPOOM PALASAN
+                  ภูมิ , เกียรติภูมิ พละสาร
                 </p>
               </div>
 
