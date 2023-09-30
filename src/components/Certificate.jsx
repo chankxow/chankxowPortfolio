@@ -380,7 +380,7 @@ const Certificate = () => {
 
                 <div className="px-6 ">
                   <p className="font-bold text-base mb-2">
-                    COMPUTER EDUCATION KKU OPEN HOUSE 2022{" "}
+                  ค่ายปรับพื้นฐานเตรียมความพร้อมน้องใหม่ ม.1 และ ม.4 โรงเรียนศรีธาตุพิทยาคม{" "}
                   </p>
                   <p>
                     เข้าร่วมการแข่งขันเขียนเว็บไซต์ในกิจกรรม COMPUTER EDUCATION
