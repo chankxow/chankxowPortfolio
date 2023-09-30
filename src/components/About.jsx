@@ -8,7 +8,6 @@ import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 const About = () => {
   return (
     <section
-      id="about"
       className="px-2 mx-auto max-w-max mx-h-max block"
     >
       <motion.h1
@@ -60,7 +59,7 @@ const About = () => {
           </p>
         </motion.div>
       </div>
-      <div className="w-max mx-auto">
+      <div id="about" className="w-max mx-auto">
         <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
