@@ -40,7 +40,6 @@ const Nav = () => {
       className='cursor-pointer h-[60px] w-[60px] mx-auto flex items-center justify-center '> 
          <BsClipboardData/>
       </Link>
-
       <Link to='activity' 
       activeClass='active' 
       smooth={true} 
